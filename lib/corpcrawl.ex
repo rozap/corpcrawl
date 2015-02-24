@@ -31,7 +31,7 @@ defmodule Corpcrawl do
     end)
     |> Enum.map(fn {fm, task} -> 
       try do
-        Task.await(task, 30_000) 
+        Task.await(task, 60_000) 
       catch
         :exit, {:timeout, e} -> 
           IO.puts("Failure #{inspect e} for #{inspect fm}")
@@ -58,7 +58,7 @@ defmodule Corpcrawl do
     |> Enum.into("")
     |> Edgarex.Docparser.to_documents
     |> Enum.find(fn doc ->
-      doc.type == "EX-21.1"
+      String.contains?(doc.type, "EX-21")
     end)
     {form, ex221}
   end
@@ -102,7 +102,7 @@ defmodule Corpcrawl do
       |> List.flatten
 
       IO.puts "Company #{form.company_name}"
-      IO.each(subs, fn s ->
+      Enum.each(subs, fn s ->
         IO.puts "    - #{inspect s}"
       end)
 

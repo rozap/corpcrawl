@@ -19,7 +19,7 @@ defmodule CorpcrawlTest do
   end
 
   test "get subsidiaries of newscorp" do
-    [{%{}, subs}] = [{%{}, fixture("newscorp")}]
+    [{%{}, subs}] = [{%{company_name: "newscorp"}, fixture("newscorp")}]
     |> Corpcrawl.load_chunk
     |> Corpcrawl.find_subsidiaries
 
