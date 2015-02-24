@@ -22,20 +22,19 @@ defmodule Corpcrawl do
 
 
   def load_chunk(chunk) do
-    IO.puts "Spawn #{length(chunk)} tasks for #{inspect chunk}"
     chunk
     |> Enum.to_list
     |> Enum.map(fn fm ->
-      Task.async(fn ->
+      {fm, Task.async(fn ->
         load_ex221(fm)
-      end)
+      end)}
     end)
-    |> Enum.map(fn task -> 
+    |> Enum.map(fn {fm, task} -> 
       try do
-        Task.await(task, 20_000) 
+        Task.await(task, 30_000) 
       catch
         :exit, {:timeout, e} -> 
-          IO.puts("Failure #{inspect e}")
+          IO.puts("Failure #{inspect e} for #{inspect fm}")
           {:timeout, nil}
       end
     end)
@@ -78,30 +77,39 @@ defmodule Corpcrawl do
   defp contents({:text, contents, _}), do: contents
 
   def find_subsidiaries(ex22s) do
-    [header | subs] = ex22s
+    ex22s
     |> Enum.map(fn {form, doc} ->
-      Q.all(doc.tree, {:tag, "tr", []})
+      [header | subs] = Q.all(doc.tree, {:tag, "tr", []})
       |> Enum.map(fn row ->
         row
         |> List.wrap
         |> Q.all({:text, :any, []})
         |> filter_nbsp
       end)
-    end)
-    |> List.flatten
-    |> Enum.chunk(2)
-    |> Enum.reject(fn [a, b] ->
-      (String.length(contents(a)) < 3) || (String.length(contents(b)) < 3)
+      |> List.flatten
+      |> Enum.chunk(2)
+      |> Enum.reject(fn [a, b] ->
+        (String.length(contents(a)) < 3) || (String.length(contents(b)) < 3)
+      end)
+  
+      header = Enum.map(header, fn h -> contents(h) end)
+
+      subs = Enum.map(subs, fn chunk ->
+        chunk = Enum.map(chunk, fn c -> contents(c) end)
+        Enum.zip(header, chunk)
+        |> Enum.into(%{})
+      end)
+      |> List.flatten
+
+      IO.puts "Company #{form.company_name}"
+      IO.each(subs, fn s ->
+        IO.puts "    - #{inspect s}"
+      end)
+
+
+      {form, subs}
     end)
 
-    header = Enum.map(header, fn h -> contents(h) end)
-
-    Enum.map(subs, fn chunk ->
-      chunk = Enum.map(chunk, fn c -> contents(c) end)
-      Enum.zip(header, chunk)
-      |> Enum.into(%{})
-    end)
-    |> List.flatten
   end
 
 end

@@ -10,7 +10,6 @@ defmodule CorpcrawlTest do
     end)
   end
 
-  @tag timeout: 60_000
   test "get exhibit 22.1 from 10k list" do
     [{form, doc}] = [%{file_name: "edgar/data/320193/0001193125-14-383437.txt"}]
     |> Corpcrawl.get_ex221(1)
@@ -19,10 +18,8 @@ defmodule CorpcrawlTest do
     assert doc.sequence == "EX-21.16"
   end
 
-  @tag timeout: 60_000
   test "get subsidiaries of newscorp" do
-    subs = {%{}, fixture("newscorp")}
-    |> List.wrap
+    [{%{}, subs}] = [{%{}, fixture("newscorp")}]
     |> Corpcrawl.load_chunk
     |> Corpcrawl.find_subsidiaries
 
@@ -40,11 +37,8 @@ defmodule CorpcrawlTest do
     }
   end
 
-
-  @tag timeout: 60_000
   test "get subsidiaries of apple" do
-    subs = {%{}, fixture("apple")}
-    |> List.wrap
+    [{%{}, subs}] = [{%{}, fixture("apple")}]
     |> Corpcrawl.load_chunk
     |> Corpcrawl.find_subsidiaries
 
@@ -58,7 +52,15 @@ defmodule CorpcrawlTest do
      "ofIncorporation" => "Nevada,U.S."},
     %{"Jurisdiction" => " the names of other subsidiaries of AppleInc. areomitted because, considered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report. ",
      "ofIncorporation" => "S-K,"}]
-
   end
+
+
+  @tag timeout: 600_000
+  test "foo" do
+    Corpcrawl.get_10ks(2014, 3)
+    |> Corpcrawl.get_ex221(4)
+    |> Corpcrawl.find_subsidiaries
+  end
+
 
 end
