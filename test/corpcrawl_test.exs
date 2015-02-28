@@ -29,7 +29,7 @@ defmodule CorpcrawlTest do
     |> IO.inspect
 
 
-    five = Enum.at(subs, 5)
+    five = subs |> Enum.drop(2) |> Enum.at(5)
     last = List.last(subs)
 
     assert five == %{
@@ -57,7 +57,7 @@ defmodule CorpcrawlTest do
 
 
   test "get subs of flowers, p elements" do
-    [{%{}, subs}] = [{%{company_name: "flowers"}, fixture("flowers")}]
+    [{_, subs}] = [{%{company_name: "flowers"}, fixture("flowers")}]
     |> Corpcrawl.load_forms
 
     assert subs
@@ -66,6 +66,12 @@ defmodule CorpcrawlTest do
       %{name: "1-800-FLOWERS Team Services, Inc. (Delaware)"},
       %{name: "1-800-FLOWERS Retail, Inc. (Delaware)"}
     ]
+  end
+
+  test "get subs of airproducts, tr els without locations" do
+    [{%{company_name: "airproducts"}, fixture("airproducts")}]
+    |> Corpcrawl.load_forms
+    |> IO.inspect
   end
 
 end

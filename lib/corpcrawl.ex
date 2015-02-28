@@ -86,29 +86,48 @@ defmodule Corpcrawl do
 
 
 
-  defp extract_meta(enumerated, :tr) do
-    [header | subs] = enumerated
-    |> Enum.chunk(2)
-    |> Enum.reject(fn [a, b] ->
-      (String.length(contents(a)) < 3) || (String.length(contents(b)) < 3)
-    end)
+  defp row_to_dict([name, location]) do
+    %{
+      name: contents(name),
+      location: contents(location)
+    }
+  end
 
-    header = Enum.map(header, fn h -> contents(h) end)
+  defp row_to_dict([name]), do: %{name: contents(name)}
+  defp row_to_dict([]), do: %{}
+  defp row_to_dict(r) do
+    IO.puts "[missed row #{inspect r}]"
+    %{}
+  end
 
-    subs = Enum.map(subs, fn [name, location] ->
-      %{
-        name: contents(name),
-        location: contents(location)
-      }
-    end)
+  defp remove_empty(results), do: Enum.filter(results, &(&1 != %{}))
+
+  defp extract_meta(rows, :tr) do
+    subs = Enum.map(rows, &(row_to_dict &1))
     |> List.flatten
-
   end
 
   defp extract_meta(enumerated, :p) do
     Enum.map(enumerated, fn {:text, name, _} ->
       %{name: name}
     end)
+  end
+
+  defp extract_text(enumerated, :tr) do
+    enumerated
+    |> Enum.map(fn row ->
+      row
+      |> List.wrap
+      |> Q.all({:tag, "td", []})
+      |> Enum.map(fn td ->
+        td
+        |> List.wrap
+        |> Q.all({:text, :any, []})
+        |> clean_ugliness
+      end)
+      |> List.flatten
+    end)
+    |> extract_meta(:tr)
   end
 
   defp extract_text(enumerated, kind) do
@@ -131,6 +150,7 @@ defmodule Corpcrawl do
       ps = Q.all(doc.tree, {:tag, "p",  []})
       extract_text(ps, :p)
     end
+    |> remove_empty
   end
 
 
