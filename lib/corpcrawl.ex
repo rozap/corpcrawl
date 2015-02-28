@@ -3,6 +3,8 @@ defmodule Corpcrawl do
   alias Edgarex.FTPStream, as: FTP
   alias Exquery.Query, as: Q
   
+  @ignore_tokens ["&nbsp;", "&#160;", "*"]
+
   def get_10ks(year, quarter) do
     Fetcher.form(year, quarter)
     |> Stream.filter(fn entry ->
@@ -65,10 +67,15 @@ defmodule Corpcrawl do
 
 
 
-  defp filter_nbsp(els) do
+  defp clean_ugliness(els) do
     els
     |> Enum.map(fn {:text, contents, attrs} ->
-      {:text, String.replace(contents, "&nbsp;", ""), attrs}
+      
+      {:ok, re} = @ignore_tokens
+      |> Enum.join("|")
+      |> Regex.compile
+
+      {:text, Regex.replace(re, contents, ""), attrs}
     end)
     |> Enum.filter(fn {_, c, _} ->
       c != ""
@@ -110,7 +117,7 @@ defmodule Corpcrawl do
       row
       |> List.wrap
       |> Q.all({:text, :any, []})
-      |> filter_nbsp
+      |> clean_ugliness
     end)
     |> List.flatten
     |> extract_meta(kind)
