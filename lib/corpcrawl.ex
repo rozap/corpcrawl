@@ -3,7 +3,7 @@ defmodule Corpcrawl do
   alias Edgarex.FTPStream, as: FTP
   alias Exquery.Query, as: Q
   
-  @ignore_tokens ["&nbsp;", "&#160;", "*"]
+  @ignore_tokens ["&nbsp;", "&#160;", "\*"]
 
   def get_10ks(year, quarter) do
     Fetcher.form(year, quarter)
