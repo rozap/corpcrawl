@@ -5,7 +5,12 @@ defmodule Corpcrawl.Mixfile do
     [app: :corpcrawl,
      version: "0.0.1",
      elixir: "~> 1.0",
+     escript: escript,
      deps: deps]
+  end
+
+  defp escript do
+    [main_module: Corpcrawl.Main]
   end
 
   # Configuration for the OTP application
@@ -27,7 +32,7 @@ defmodule Corpcrawl.Mixfile do
   defp deps do
     [
       {:edgarex, git: "https://github.com/rozap/edgarex.git"},
-      {:exquery, "~> 0.0.6"}
+      {:exquery, "~> 0.0.9"}
     ]
   end
 end

@@ -10,47 +10,14 @@ defmodule Corpcrawl do
     end)
   end
 
-  def get_ex221(form_10ks, concurrency) do
+  def ten_k_to_subs(form_10ks, concurrency) do
     form_10ks
     |> Enum.map(fn form ->
-      IO.puts "from uri #{form.file_name}"
+      # IO.puts "from uri #{form.file_name}"
       {form, FTP.from_uri(form.file_name)}
     end)
     |> Enum.chunk(concurrency, concurrency, [])
-    |> Enum.flat_map(fn chunk -> load_chunk(chunk) end)
-  end
-
-
-  def load_chunk(chunk) do
-    chunk
-    |> Enum.to_list
-    |> Enum.map(fn fm ->
-      {fm, Task.async(fn ->
-        load_ex221(fm)
-      end)}
-    end)
-    |> Enum.map(fn {fm, task} -> 
-      try do
-        Task.await(task, 60_000) 
-      catch
-        :exit, {:timeout, e} -> 
-          IO.puts("Failure #{inspect e} for #{inspect fm}")
-          {:timeout, nil}
-      end
-    end)
-    |> Enum.map(fn res ->
-        case res do
-          {_form, nil} -> []
-          {form, doc} -> 
-            [doc] = doc
-            |> List.wrap
-            |> Edgarex.Docparser.doc_trees
-        
-            {form, doc}
-        end
-      end)
-    |> List.flatten
-
+    |> Enum.flat_map(fn forms -> load_forms(forms) end)
   end
 
   defp load_ex221({form, ftp_stream}) do
@@ -60,8 +27,42 @@ defmodule Corpcrawl do
     |> Enum.find(fn doc ->
       String.contains?(doc.type, "EX-21")
     end)
+
     {form, ex221}
   end
+
+
+  def load_forms(forms) do
+    forms
+    |> Enum.map(fn form ->
+      {form, Task.async(fn -> load_ex221(form) end)}
+    end)
+    |> Enum.map(fn {form, task} -> 
+      try do
+        Task.await(task, 60_000) 
+      catch
+        :exit, {:timeout, e} -> 
+          IO.puts("Failure #{inspect e} for #{inspect form}")
+          {:timeout, nil}
+      end
+    end)
+    |> Enum.map(fn res ->
+        case res do
+          {_form, nil} -> []
+          {form, doc} -> 
+
+            [doc] = doc
+            |> List.wrap
+            |> Edgarex.Docparser.doc_trees
+        
+            find_subsidiaries({form, doc})
+        end
+      end)
+    |> List.flatten
+
+  end
+
+
 
 
   defp filter_nbsp(els) do
@@ -76,40 +77,63 @@ defmodule Corpcrawl do
 
   defp contents({:text, contents, _}), do: contents
 
-  def find_subsidiaries(ex22s) do
-    ex22s
-    |> Enum.map(fn {form, doc} ->
-      [header | subs] = Q.all(doc.tree, {:tag, "tr", []})
-      |> Enum.map(fn row ->
-        row
-        |> List.wrap
-        |> Q.all({:text, :any, []})
-        |> filter_nbsp
-      end)
-      |> List.flatten
-      |> Enum.chunk(2)
-      |> Enum.reject(fn [a, b] ->
-        (String.length(contents(a)) < 3) || (String.length(contents(b)) < 3)
-      end)
-  
-      header = Enum.map(header, fn h -> contents(h) end)
-
-      subs = Enum.map(subs, fn chunk ->
-        chunk = Enum.map(chunk, fn c -> contents(c) end)
-        Enum.zip(header, chunk)
-        |> Enum.into(%{})
-      end)
-      |> List.flatten
-
-      IO.puts "Company #{form.company_name}"
-      Enum.each(subs, fn s ->
-        IO.puts "    - #{inspect s}"
-      end)
 
 
-      {form, subs}
+  defp extract_meta(enumerated, :tr) do
+    [header | subs] = enumerated
+    |> Enum.chunk(2)
+    |> Enum.reject(fn [a, b] ->
+      (String.length(contents(a)) < 3) || (String.length(contents(b)) < 3)
     end)
 
+    header = Enum.map(header, fn h -> contents(h) end)
+
+    subs = Enum.map(subs, fn [name, location] ->
+      %{
+        name: contents(name),
+        location: contents(location)
+      }
+    end)
+    |> List.flatten
+
+  end
+
+  defp extract_meta(enumerated, :p) do
+    Enum.map(enumerated, fn {:text, name, _} ->
+      %{name: name}
+    end)
+  end
+
+  defp extract_text(enumerated, kind) do
+    enumerated
+    |> Enum.map(fn row ->
+      row
+      |> List.wrap
+      |> Q.all({:text, :any, []})
+      |> filter_nbsp
+    end)
+    |> List.flatten
+    |> extract_meta(kind)
+  end
+
+  defp find_enumerated(doc) do
+    trs = Q.all(doc.tree, {:tag, "tr", []})
+    if(length(trs) > 1) do
+      extract_text(trs, :tr)
+    else
+      ps = Q.all(doc.tree, {:tag, "p",  []})
+      extract_text(ps, :p)
+    end
+  end
+
+
+  def find_subsidiaries({form, doc}) do
+    subs = find_enumerated(doc)
+    # IO.puts "Company #{form.company_name}"
+    # Enum.each(subs, fn s ->
+    #   IO.puts "    - #{inspect s}"
+    # end)
+    {form, subs}
   end
 
 end
