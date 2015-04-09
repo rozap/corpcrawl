@@ -17,7 +17,7 @@ defmodule Corpcrawl.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :postgrex, :ecto]]
   end
 
   # Dependencies can be Hex packages:
@@ -32,7 +32,12 @@ defmodule Corpcrawl.Mixfile do
   defp deps do
     [
       {:edgarex, git: "https://github.com/rozap/edgarex.git"},
-      {:exquery, "~> 0.0.9"}
+      {:exquery, "~> 0.0.9"},
+      {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.1"},
+      {:httpotion, "~> 2.0.0"},
+      {:poison, "~> 1.3.1"},
+      {:postgrex, "0.7.0"},
+      {:ecto, "~> 0.8.1"} 
     ]
   end
 end

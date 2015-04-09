@@ -1,0 +1,1468 @@
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1347858, date_filed: "2014-01-30", file_name: "edgar/data/1347858/0001144204-14-004909.txt", form_type: "10-K", id: 2517} []
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 910638, date_filed: "2014-02-28", file_name: "edgar/data/910638/0001562762-14-000032.txt", form_type: "10-K", id: 2519} [%{name: "\t\t\t\t\t\t, \t\t\t\t\t\t"}, %{name: "Name, Jurisdiction of Incorporation"}, %{location: "Canada", name: "3D  Company, \t\t\t\t\t\t"}, %{location: "Delaware", name: "3D Holdings, LLC, \t\t\t\t\t\t"}, %{location: "Switzerland", name: "3D Systems S.A., \t\t\t\t\t\t"}, %{location: "California", name: "3D Systems,Inc., \t\t\t\t\t\t"}, %{location: "United Kingdom", name: "3D Systems Europe Ltd., \t\t\t\t\t\t"}, %{location: "Germany", name: "3D Systems GmbH, \t\t\t\t\t\t"}, %{location: "France France", name: "3D Systems France SARL, \t\t\t\t\t\t, France"}, %{location: "Italy", name: "3D Systems Italia S.r.l., \t\t\t\t\t\t"}, %{location: "California", name: "3D Capital Corporation, \t\t\t\t\t\t"}, %{location: "Asia Pacific California", name: "3D Systems Asia Pacific, Ltd., \t\t\t\t\t\t, California"}, %{location: "United Kingdom", name: "3D European Holdings Ltd., \t\t\t\t\t\t"}, %{location: "Delaware", name: "OptoFormLLC, (a), \t\t\t\t\t\t"}, %{location: "Japan K.K. Japan", name: "3D Systems Japan K.K., \t\t\t\t\t\t, Japan"}, %{location: "California", name: "MQast, LLC, \t\t\t\t\t\t"}, %{location: "United Kingdom", name: "Bits From Bytes, Ltd., \t\t\t\t\t\t"}, %{location: "Italy", name: "Provel, S.r.l., \t\t\t\t\t\t"}, %{location: "Australia", name: "3D Systems Asia-Pacific Pty Ltd, \t\t\t\t\t\t"}, %{location: "Australia", name: "XYZ Innovation Pty Ltd, \t\t\t\t\t\t"}, %{location: "The Netherlands", name: "Freedom of Creation B.V., \t\t\t\t\t\t"}, %{location: "The Netherlands", name: "3D Systems Benelux, \t\t\t\t\t\t"}, %{location: "Delaware", name: "Quickparts.com, Inc., \t\t\t\t\t\t"}, %{location: "Delaware", name: "3D Systems India, Inc., \t\t\t\t\t\t"}, %{location: "India India", name: "Three D Sycode India Private Limited, \t\t\t\t\t\t, India"}, %{location: "Massachusetts", name: "Z Corporation, \t\t\t\t\t\t"}, %{location: "Virginia", name: "VIDAR Systems Corporation, \t\t\t\t\t\t"}, %{location: "California", name: "3D Systems Consumer Solutions, LLC, \t\t\t\t\t\t"}, %{location: "California", name: "My Robot Nation, Inc., \t\t\t\t\t\t"}, %{location: "California", name: "Bespoke Innovations, Inc., \t\t\t\t\t\t"}, %{location: "Delaware", name: "Viztu Technologies, Inc., \t\t\t\t\t\t"}, %{location: "Korea Korea", name: "3D Systems Korea, Inc., \t\t\t\t\t\t, Korea"}, %{location: "California", name: "Rapidform, Inc. , \t\t\t\t\t\t"}, %{location: "France", name: "Co-Web, \t\t\t\t\t\t"}, %{location: "Delaware", name: "Geomagic, Inc., \t\t\t\t\t\t"}, %{location: "Germany", name: "Geomagic GmbH, \t\t\t\t\t\t"}, %{location: "Shanghai Shanghai China", name: "Geomagic (Shanghai) Software Co., Ltd., \t\t\t\t\t\t, Shanghai, China"}, %{location: "Phenix Systems France", name: "Phenix Systems, (b), \t\t\t\t\t\t, France"}, %{location: "Delaware", name: "AMT, Inc., (c), \t\t\t\t\t\t"}, %{location: "Delaware", name: "VisPower Technology, Inc., \t\t\t\t\t\t"}, %{location: "United Kingdom", name: "CRDM, Ltd., \t\t\t\t\t\t"}, %{location: "Massachusetts", name: "Figulo Corporation, \t\t\t\t\t\t"}, %{location: "Ohio", name: "Village Plastics Co. , \t\t\t\t\t\t"}, %{location: "California", name: "Gentle Giant Studios, Inc., \t\t\t\t\t\t"}, %{name: " a), We directly or indirectly own 60% of the outstanding interests."}, %{name: " b), We directly or indirectly own 94.70% of the outstanding interests."}, %{location: "Phenix Phenix Systems", name: "c), AMT, Inc. is 100% owned by Phenix Systems.See Note b above regarding our ownership interest in Phenix Systems."}]
+    - 						, 						
+    - Name, Jurisdiction of Incorporation
+    - 3D  Company, 						
+    - 3D Holdings, LLC, 						
+    - 3D Systems S.A., 						
+    - 3D Systems,Inc., 						
+    - 3D Systems Europe Ltd., 						
+    - 3D Systems GmbH, 						
+    - 3D Systems France SARL, 						, France
+    - 3D Systems Italia S.r.l., 						
+    - 3D Capital Corporation, 						
+    - 3D Systems Asia Pacific, Ltd., 						, California
+    - 3D European Holdings Ltd., 						
+    - OptoFormLLC, (a), 						
+    - 3D Systems Japan K.K., 						, Japan
+    - MQast, LLC, 						
+    - Bits From Bytes, Ltd., 						
+    - Provel, S.r.l., 						
+    - 3D Systems Asia-Pacific Pty Ltd, 						
+    - XYZ Innovation Pty Ltd, 						
+    - Freedom of Creation B.V., 						
+    - 3D Systems Benelux, 						
+    - Quickparts.com, Inc., 						
+    - 3D Systems India, Inc., 						
+    - Three D Sycode India Private Limited, 						, India
+    - Z Corporation, 						
+    - VIDAR Systems Corporation, 						
+    - 3D Systems Consumer Solutions, LLC, 						
+    - My Robot Nation, Inc., 						
+    - Bespoke Innovations, Inc., 						
+    - Viztu Technologies, Inc., 						
+    - 3D Systems Korea, Inc., 						, Korea
+    - Rapidform, Inc. , 						
+    - Co-Web, 						
+    - Geomagic, Inc., 						
+    - Geomagic GmbH, 						
+    - Geomagic (Shanghai) Software Co., Ltd., 						, Shanghai, China
+    - Phenix Systems, (b), 						, France
+    - AMT, Inc., (c), 						
+    - VisPower Technology, Inc., 						
+    - CRDM, Ltd., 						
+    - Figulo Corporation, 						
+    - Village Plastics Co. , 						
+    - Gentle Giant Studios, Inc., 						
+    -  a), We directly or indirectly own 60% of the outstanding interests.
+    -  b), We directly or indirectly own 94.70% of the outstanding interests.
+    - c), AMT, Inc. is 100% owned by Phenix Systems.See Note b above regarding our ownership interest in Phenix Systems.
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 66740, date_filed: "2014-02-13", file_name: "edgar/data/66740/0001104659-14-009773.txt", form_type: "10-K", id: 2522} [%{name: "Percentageof"}, %{name: "VotingSecurities"}, %{name: "OrganizedUnder, BeneficiallyOwned"}, %{name: "NameofCompany, Lawsof, byRegistrant"}, %{location: "Delaware", name: "Registrant &#151; 3M Company"}, %{name: "Consolidated subsidiaries of the Registrant:"}, %{location: "Delaware", name: "3M   Electronic Monitoring,Inc., , 100"}, %{location: "Delaware", name: "3M Financial   Management Company, , 100"}, %{location: "Delaware", name: "3M   Innovative Properties Company, , 100"}, %{location: "Delaware", name: "3M   Investment Management Corporation, , 100"}, %{location: "Delaware", name: "3M   Occupational Safety LLC, , 100"}, %{location: "Delaware", name: "Aearo   Holding LLC, , 100"}, %{location: "Delaware", name: "Aearo   Technologies LLC, , 100"}, %{location: "Delaware", name: "Arizant   Holdings Inc., , 100"}, %{location: "Delaware", name: "3M   Cogent,Inc., , 100"}, %{location: "Delaware", name: "3M   Purification Inc., , 100"}, %{location: "California", name: "3M Unitek   Corporation, , 100"}, %{location: "California", name: "Ceradyne,Inc., , 100"}, %{location: "California", name: "Meguiar&#146;s,Inc., , 100"}, %{location: "Maryland", name: "3M Health   Information Systems,Inc., , 100"}, %{location: "Massachusetts", name: "3M Touch   Systems,Inc., , 100"}, %{location: "Massachusetts", name: "GTA&#150;NHT,Inc., , 100"}, %{location: "Minnesota", name: "Arizant   HealthcareInc., , 100"}, %{location: "Minnesota", name: "Arizant Inc., , 100"}, %{location: "South Carolina", name: "Two Harbors Insurance Company, , 100"}, %{location: "Argentina Argentina", name: "3M Argentina S.A.C.I.F.I.A., Argentina, 100"}, %{location: "Australia", name: "3M    Pty. Ltd., , 100"}, %{location: "Australia", name: "3M   Purification Pty Limited, , 100"}, %{location: "Austria", name: "3M   Osterreich GmbH, , 100"}, %{location: "Austria", name: "Rappold Winterthur Technologie GmbH, , 100"}, %{location: "Belgium Belgium", name: "3M Belgium BVBA/SPRL, Belgium, 100"}, %{location: "Brazil", name: "3M do Brasil   Limitada, , 100"}, %{location: "Manaus Ind.", name: "3M Manaus   Ind. Prods. Quims. LTDA, Brazil, 100"}, %{location: "Canada", name: "3M    Company, , 100"}, %{location: "Chile Chile", name: "3M Chile   S.A., Chile, 100"}, %{location: "China China", name: "3M China Limited, China, 100"}, %{location: "China", name: "3M   International Trading (Shanghai) Co.,Ltd., , 100"}, %{location: "China", name: "3M   International Trading (Shenzhen) Co.,Ltd., , 100"}, %{location: "China China", name: "3M   Investments (China) Co.,Ltd., China, 100"}, %{location: "Guangzhou China", name: "3M Material   Technology (Guangzhou) Co.,Ltd., China, 100"}, %{location: "Suzhou China", name: "3M Material   Technology (Suzhou) Co.,Ltd., China, 100"}, %{location: "China", name: "3M Optical   Systems Manufacturing Co. (Shanghai) Ltd., , 100"}, %{location: "Shanghai China", name: "3M Specialty   Materials (Shanghai) Co.,Ltd., China, 100"}, %{location: "Colombia Colombia", name: "3M Colombia,   S.A., Colombia, 100"}, %{location: "Denmark", name: "3M A/S, , 100"}, %{location: "Finland", name: "Suomen 3M Oy, , 100"}, %{location: "France", name: "3M   Purification, , 100"}, %{location: "France S.A.S. France", name: "3M France S.A.S., France, 100"}, %{location: "France", ...}, %{...}, ...]
+    - Percentageof
+    - VotingSecurities
+    - OrganizedUnder, BeneficiallyOwned
+    - NameofCompany, Lawsof, byRegistrant
+    - Registrant &#151; 3M Company
+    - Consolidated subsidiaries of the Registrant:
+    - 3M   Electronic Monitoring,Inc., , 100
+    - 3M Financial   Management Company, , 100
+    - 3M   Innovative Properties Company, , 100
+    - 3M   Investment Management Corporation, , 100
+    - 3M   Occupational Safety LLC, , 100
+    - Aearo   Holding LLC, , 100
+    - Aearo   Technologies LLC, , 100
+    - Arizant   Holdings Inc., , 100
+    - 3M   Cogent,Inc., , 100
+    - 3M   Purification Inc., , 100
+    - 3M Unitek   Corporation, , 100
+    - Ceradyne,Inc., , 100
+    - Meguiar&#146;s,Inc., , 100
+    - 3M Health   Information Systems,Inc., , 100
+    - 3M Touch   Systems,Inc., , 100
+    - GTA&#150;NHT,Inc., , 100
+    - Arizant   HealthcareInc., , 100
+    - Arizant Inc., , 100
+    - Two Harbors Insurance Company, , 100
+    - 3M Argentina S.A.C.I.F.I.A., Argentina, 100
+    - 3M    Pty. Ltd., , 100
+    - 3M   Purification Pty Limited, , 100
+    - 3M   Osterreich GmbH, , 100
+    - Rappold Winterthur Technologie GmbH, , 100
+    - 3M Belgium BVBA/SPRL, Belgium, 100
+    - 3M do Brasil   Limitada, , 100
+    - 3M Manaus   Ind. Prods. Quims. LTDA, Brazil, 100
+    - 3M    Company, , 100
+    - 3M Chile   S.A., Chile, 100
+    - 3M China Limited, China, 100
+    - 3M   International Trading (Shanghai) Co.,Ltd., , 100
+    - 3M   International Trading (Shenzhen) Co.,Ltd., , 100
+    - 3M   Investments (China) Co.,Ltd., China, 100
+    - 3M Material   Technology (Guangzhou) Co.,Ltd., China, 100
+    - 3M Material   Technology (Suzhou) Co.,Ltd., China, 100
+    - 3M Optical   Systems Manufacturing Co. (Shanghai) Ltd., , 100
+    - 3M Specialty   Materials (Shanghai) Co.,Ltd., China, 100
+    - 3M Colombia,   S.A., Colombia, 100
+    - 3M A/S, , 100
+    - Suomen 3M Oy, , 100
+    - 3M   Purification, , 100
+    - 3M France S.A.S., France, 100
+    - EMFI SAS, , 100
+    - GPI (SAS), , 100
+    - FAAB   Fabricauto, , 100
+    - 3M   Deutschland GmbH, , 100
+    - 3M Real   Estate GmbH&amp; Co. KG, Germany, 100
+    - Percentageof
+    - VotingSecurities
+    - OrganizedUnder, BeneficiallyOwned
+    - NameofCompany, Lawsof, byRegistrant
+    - Dyneon GmbH, , 100
+    - ESK Ceramics   GmbH Co&amp; KG, , 100
+    - Wendt GmbH, , 100
+    - 3M    Limited, , 100
+    - 3M India   Limited, India, 75
+    - 3M Electronic Monitoring Ltd., , 100
+    - 3M Italia srl, , 100
+    - 3M Health   Care Limited, , 100
+    - 3M   Purification Kabushiki Kaisha, , 100
+    - Sumitomo 3M   Limited, , 75
+    - Yamagata 3M   Limited, Japan, 100
+    - 3M Korea   Health and Safety Limited, Korea, 100
+    - 3M    High Technology Limited, , 100
+    - 3M Korea   Limited, Korea, 100
+    - 3M Asset Management S.a.r.l., , 100
+    - 3M Attenti Holdings S.a.r.l., , 100
+    - 3M Global Capital S.a.r.l., , 100
+    - 3M    Sdn. Bhd., , 100
+    - 3M Mexico, S.A. de C.V., Mexico, 100
+    - 3M Nederland   B.V., , 100
+    - 3M New   Zealand Limited, New Zealand, 100
+    - 3M Norge A/S, , 100
+    - 3M Peru, S.A., Peru, 100
+    - 3M  Sp. z.o.o., , 100
+    - 3M Wroclaw   Sp. z.o.o., Poland, 100
+    - 3M Romania   S.R.L., Romania, 100
+    - 3M Puerto   Rico,Inc., Puerto Rico, 100
+    - 3M   Innovation  Pte Ltd, , 100
+    - 3M    Private Limited, , 100
+    - 3M   Technologies Private Limited, , 100
+    - CUNO   Filtration Asia Pte. Ltd., , 100
+    - 3M South   Africa (Proprietary) Limited, South Africa, 100
+    - 3M Espana,   S.A., , 100
+    - 3M Svenska   AB, , 100
+    - 3M (East)   A.G., Switzerland, 100
+    - 3M (Schweiz)   A.G., Switzerland, 100
+    - Winterthur   Technologie AG, , 100
+    - 3M Taiwan   Limited, Taiwan, 100
+    - 3M    Optronics Corp., , 100
+    - Alpha Beta   Global Tapes&amp; Adhesives Co.,Ltd., , 100
+    - 3M Thailand   Limited, Thailand, 100
+    - 3M Sanayi VE   Ticaret AS, , 100
+    - 3M Russia, Russia, 100
+    - 3M Gulf Ltd., , 100
+    - 3M Health   Care Ltd., , 100
+    - 3M UK   Holdings Limited, , 100
+    - 3M United   Kingdom PLC, , 100
+    - 3M Manufacturera Venezuela, S.A., Venezuela, 100
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1413898, date_filed: "2014-03-07", file_name: "edgar/data/1413898/0001413898-14-000014.txt", form_type: "10-K", id: 2528} [%{name: "Subsidiary, State or Jurisdiction of Incorporation, Trade Name"}, %{location: "Delaware", name: "A. H. Belo Corporation II"}, %{location: "Delaware", name: "A. H. Belo Management Services, Inc."}, %{location: "Delaware", name: "Auto Z, LLC"}, %{location: "Delaware", name: "Belo Lead Management LLC"}, %{location: "Delaware", name: "Belo Live Video Solutions LLC"}, %{location: "Delaware", name: "Belo Search Solutions LLC"}, %{location: "Delaware", name: "True North Real Estate LLC"}, %{location: "Delaware", name: "AHC California Properties, LLC"}, %{location: "Delaware", name: "AHC Dallas Properties, LLC"}, %{location: "Delaware", name: "Belo Enterprises, Inc."}, %{location: "Delaware", name: "Belo CV Holdings"}, %{location: "Delaware", name: "Belo Havana Bureau, Inc."}, %{location: "Delaware", name: "Belo Interactive, Inc."}, %{location: "Delaware", name: "Belo Investments II, Inc."}, %{location: "Delaware", name: "Belo Company (The)"}, %{location: "Delaware", name: "Belo Technology Assets, Inc."}, %{location: "Rhode Island", name: "Colony Cable Networks, Inc."}, %{location: "Rhode Island", name: "Colony/PCS, Inc."}, %{location: "Dallas Delaware", name: "Dallas Morning News, Inc. (The), Delaware"}, %{location: "Delaware", name: "Al Dia, Inc."}, %{location: "Belo Mexico Delaware", name: "Belo Mexico, Inc., Delaware"}, %{location: "Mexico Mexico", name: "Belocorp de Mexico, S. de R.L. de C.V., Mexico"}, %{location: "Belo Mexico Delaware", name: "Belo Mexico, LLC, Delaware"}, %{location: "Mexico Mexico", name: "Belocorp de Mexico, S. de R.L. de C.V., Mexico"}, %{location: "Delaware", name: "DFW Printing Company, Inc."}, %{location: "Delaware Texas", name: "TDMN New Products, Inc., Delaware, Quick (Texas)"}, %{location: "Texas", name: "Denton Publishing Company"}, %{location: "Delaware", name: "DMI Acquisition Sub, Inc."}, %{location: "Rhode Island", name: "Fountain Street Corporation"}, %{location: "Texas", name: "News-Texan, Inc."}, %{location: "Rhode Island", name: "PJ Health Programming, Inc."}, %{location: "Rhode Island", name: "PJ Programming, Inc."}, %{location: "Delaware", name: "AHC California Dispositions, Inc. (formerly Press-Enterprise Company)"}, %{location: "Delaware", name: "Providence Journal Company (The)"}, %{location: "Delaware", name: "Providence Holdings, Inc."}, %{location: "Rhode Island", name: "Providence Journal Satellite Services, Inc."}, %{location: "Rhode Island", name: "Washington Street Garage Corporation"}, %{location: "Texas", name: "Your Speakeasy LLC"}, %{name: "   Non-wholly owned"}]
+    - Subsidiary, State or Jurisdiction of Incorporation, Trade Name
+    - A. H. Belo Corporation II
+    - A. H. Belo Management Services, Inc.
+    - Auto Z, LLC
+    - Belo Lead Management LLC
+    - Belo Live Video Solutions LLC
+    - Belo Search Solutions LLC
+    - True North Real Estate LLC
+    - AHC California Properties, LLC
+    - AHC Dallas Properties, LLC
+    - Belo Enterprises, Inc.
+    - Belo CV Holdings
+    - Belo Havana Bureau, Inc.
+    - Belo Interactive, Inc.
+    - Belo Investments II, Inc.
+    - Belo Company (The)
+    - Belo Technology Assets, Inc.
+    - Colony Cable Networks, Inc.
+    - Colony/PCS, Inc.
+    - Dallas Morning News, Inc. (The), Delaware
+    - Al Dia, Inc.
+    - Belo Mexico, Inc., Delaware
+    - Belocorp de Mexico, S. de R.L. de C.V., Mexico
+    - Belo Mexico, LLC, Delaware
+    - Belocorp de Mexico, S. de R.L. de C.V., Mexico
+    - DFW Printing Company, Inc.
+    - TDMN New Products, Inc., Delaware, Quick (Texas)
+    - Denton Publishing Company
+    - DMI Acquisition Sub, Inc.
+    - Fountain Street Corporation
+    - News-Texan, Inc.
+    - PJ Health Programming, Inc.
+    - PJ Programming, Inc.
+    - AHC California Dispositions, Inc. (formerly Press-Enterprise Company)
+    - Providence Journal Company (The)
+    - Providence Holdings, Inc.
+    - Providence Journal Satellite Services, Inc.
+    - Washington Street Garage Corporation
+    - Your Speakeasy LLC
+    -    Non-wholly owned
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 706688, date_filed: "2014-02-24", file_name: "edgar/data/706688/0000706688-14-000015.txt", form_type: "10-K", id: 2533} [%{name: "NAME, STATE OR COUNTRY OF INCORPORATION"}, %{location: "Delaware", name: "Aaron Investment Company"}, %{name: "Aaron Rents, Inc. Puerto Rico, Commonwealth of Puerto Rico"}, %{location: "Canada Canada", name: "Aaron&#8217;s Canada, ULC, Canada"}, %{location: "Georgia", name: "Aaron&#8217;s Foundation, Inc."}, %{location: "Georgia", name: "Aaron&#8217;s Logistics, LLC"}, %{location: "Georgia", name: "Aaron&#8217;s Procurement Company, LLC"}, %{location: "Georgia", name: "Aaron&#8217;s Production Company"}, %{location: "Georgia", name: "Aaron&#8217;s Strategic Services, LLC"}, %{location: "Georgia", name: "99LTO, LLC"}]
+    - NAME, STATE OR COUNTRY OF INCORPORATION
+    - Aaron Investment Company
+    - Aaron Rents, Inc. Puerto Rico, Commonwealth of Puerto Rico
+    - Aaron&#8217;s Canada, ULC, Canada
+    - Aaron&#8217;s Foundation, Inc.
+    - Aaron&#8217;s Logistics, LLC
+    - Aaron&#8217;s Procurement Company, LLC
+    - Aaron&#8217;s Production Company
+    - Aaron&#8217;s Strategic Services, LLC
+    - 99LTO, LLC
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 887359, date_filed: "2014-03-13", file_name: "edgar/data/887359/0001104659-14-019344.txt", form_type: "10-K", id: 2534} [%{name: "EXHIBIT21"}, %{name: "SUBSIDIARIES OF REGISTRANT"}, %{name: "Aastrom Biosciences GmbH, Germany"}, %{name: "Marrow Donation, LLC"}]
+    - EXHIBIT21
+    - SUBSIDIARIES OF REGISTRANT
+    - Aastrom Biosciences GmbH, Germany
+    - Marrow Donation, LLC
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1800, date_filed: "2014-02-21", file_name: "edgar/data/1800/0001047469-14-001176.txt", form_type: "10-K", id: 2535} [%{name: "DomesticSubsidiaries, Incorporation"}, %{location: "Delaware", name: "Abbott Administration Inc."}, %{location: "Delaware", name: "Abbott Biologicals, LLC"}, %{location: "Delaware", name: "Abbott Cardiovascular Inc."}, %{location: "California", name: "Abbott Cardiovascular Systems Inc."}, %{location: "Delaware", name: "Abbott  Inc."}, %{location: "Delaware", name: "Abbott Diabetes Care Inc."}, %{location: "Delaware", name: "Abbott Diabetes Care Sales Corporation"}, %{location: "Delaware", name: "Abbott Equity Investments LLC"}, %{location: "Delaware", name: "Abbott Exchange Inc."}, %{location: "Delaware", name: "Abbott Health Products, LLC"}, %{location: "Delaware", name: "Abbott International LLC"}, %{location: "Delaware", name: "Abbott Laboratories Inc."}, %{location: "Illinois", name: "Abbott Laboratories International LLC"}, %{location: "Illinois", name: "Abbott Laboratories Pacific Ltd."}, %{location: "Illinois", name: "Abbott Laboratories Residential Development   Fund,Inc."}, %{location: "Illinois", name: "Abbott Laboratories Services Corp."}, %{location: "Delaware", name: "Abbott Management LLC"}, %{location: "Delaware", name: "Abbott Medical Optics Inc."}, %{location: "Delaware", name: "Abbott Molecular Inc."}, %{location: "Delaware", name: "Abbott Nutrition Manufacturing Inc."}, %{location: "Delaware", name: "Abbott Personnel Inc."}, %{location: "Delaware", name: "Abbott Point of Care Inc."}, %{location: "Delaware", name: "Abbott Procurement LLC"}, %{location: "Delaware", name: "Abbott Products Operations, LLC"}, %{location: "Delaware", name: "Abbott Resources Inc."}, %{location: "Delaware", name: "Abbott Resources International Inc."}, %{location: "Delaware", name: "Abbott Universal LLC"}, %{location: "Delaware", name: "Abbott Vascular Inc."}, %{location: "Indiana", name: "Abbott Vascular Solutions Inc."}, %{location: "Delaware", name: "Abbott Ventures Inc."}, %{location: "Delaware", name: "AMO Development, LLC"}, %{location: "Delaware", name: "AMO Holdings,Inc."}, %{location: "Delaware", name: "AMO Manufacturing USA, LLC"}, %{location: "Delaware", name: "AMO Nominee Holdings, LLC"}, %{location: "Delaware", name: "AMO Sales and Service,Inc."}, %{location: "Delaware", name: "AMO Spain Holdings, LLC"}, %{location: "Delaware", name: "AMO U.K. Holdings, LLC"}, %{location: "Delaware", name: "AMO US Holdings,Inc."}, %{location: "Delaware", name: "AMO USA Sales Holdings,Inc."}, %{location: "Delaware", name: "AMO USA, LLC"}, %{location: "New Mexico", name: "AMO WaveFront Sciences, LLC"}, %{location: "Delaware", name: "Bioabsorbable Vascular Solutions,Inc."}, %{location: "Delaware", name: "CMM Transportation,Inc."}, %{location: "Delaware", name: "CynoGen Inc."}, %{location: "Delaware", name: "Evalve International,Inc."}, %{location: "Delaware", name: "Evalve,Inc."}, %{location: "Delaware", name: "Fournier Pharma Corp."}, %{location: "Delaware", ...}, %{...}, ...]
+    - DomesticSubsidiaries, Incorporation
+    - Abbott Administration Inc.
+    - Abbott Biologicals, LLC
+    - Abbott Cardiovascular Inc.
+    - Abbott Cardiovascular Systems Inc.
+    - Abbott  Inc.
+    - Abbott Diabetes Care Inc.
+    - Abbott Diabetes Care Sales Corporation
+    - Abbott Equity Investments LLC
+    - Abbott Exchange Inc.
+    - Abbott Health Products, LLC
+    - Abbott International LLC
+    - Abbott Laboratories Inc.
+    - Abbott Laboratories International LLC
+    - Abbott Laboratories Pacific Ltd.
+    - Abbott Laboratories Residential Development   Fund,Inc.
+    - Abbott Laboratories Services Corp.
+    - Abbott Management LLC
+    - Abbott Medical Optics Inc.
+    - Abbott Molecular Inc.
+    - Abbott Nutrition Manufacturing Inc.
+    - Abbott Personnel Inc.
+    - Abbott Point of Care Inc.
+    - Abbott Procurement LLC
+    - Abbott Products Operations, LLC
+    - Abbott Resources Inc.
+    - Abbott Resources International Inc.
+    - Abbott Universal LLC
+    - Abbott Vascular Inc.
+    - Abbott Vascular Solutions Inc.
+    - Abbott Ventures Inc.
+    - AMO Development, LLC
+    - AMO Holdings,Inc.
+    - AMO Manufacturing USA, LLC
+    - AMO Nominee Holdings, LLC
+    - AMO Sales and Service,Inc.
+    - AMO Spain Holdings, LLC
+    - AMO U.K. Holdings, LLC
+    - AMO US Holdings,Inc.
+    - AMO USA Sales Holdings,Inc.
+    - AMO USA, LLC
+    - AMO WaveFront Sciences, LLC
+    - Bioabsorbable Vascular Solutions,Inc.
+    - CMM Transportation,Inc.
+    - CynoGen Inc.
+    - Evalve International,Inc.
+    - Evalve,Inc.
+    - Fournier Pharma Corp.
+    - Ibis Biosciences,Inc.
+    - IDEV Technologies,Inc.
+    - IMTC Technologies,Inc.
+    - Integrated Vascular Systems,Inc.
+    - Lake Forest Investments LLC
+    - Midwest Properties LLC
+    - Murex Diagnostics,Inc.
+    - Natural Supplement   Association,Incorporated
+    - North Shore Properties,Inc.
+    - OptiMedica Corporation
+    - PDD II, LLC
+    - PDD, LLC
+    - Quest Vision Technology,Inc.
+    - Starlims Corporation
+    - Swan-Myers,Incorporated
+    - Tobal Products Incorporated
+    - Visiogen,Inc.
+    - X Technologies Inc.
+    - ZonePerfect Nutrition Company
+    - ForeignSubsidiaries, Incorporation
+    - Abbott Products Algerie EURL
+    - Abbott Laboratories  Sociedad   Anonima
+    - Murex  S.A., , ( 65%)
+    - Abbott Australasia Pty Ltd
+    - Abbott Products Pty Ltd
+    - AMO  Pty Limited
+    - IDEV Medical   Technologies Pty Ltd
+    - STARLIMS   Australasia Pty Ltd
+    - Abbott   Gesellschaft m.b.H.
+    - Abbott  Overseas Businesses   Corporation
+    - Abbott Holdings Ltd. (Bahamas), Bahamas
+    - Abbott Laboratories (Bangladesh) Limited, Bangladesh
+    - Murex Diagnostics International Inc.
+    - Abbott Belgian Investments SPRL
+    - Abbott Belgian Pension Fund A.S.B.L.
+    - Abbott SA
+    - Abbott Products SA
+    - Abbott Vascular International BVBA
+    - Abbott  Holding Ltd.
+    - Abbott Diagnostics International, Ltd
+    - Abbott Healthcare (Puerto Rico) Ltd.
+    - Abbott Ireland, Bermuda
+    - Abbott Strategic Opportunities Limited
+    - Abbott dru&#154;tvo sa ogranicenom odgovorno&#154;cu   za trgovinu i usluge
+    - Abbott   Laboratorios do Brasil Ltda.
+    - Vistatek Participacoes S.A.
+    - Vistatek Produtos Oticos S.A.
+    - Abbott Products EOOD
+    - Abbott (Cambodia) LLC, Cambodia
+    - Abbott International Corporation
+    - Abbott Laboratories, Limited/Laboratoires   Abbott, Limitee, Canada
+    - Abbott Point of Care  Limited
+    - Abbott Products  Inc.
+    - Abbott Products Inc.
+    - AMO  Company
+    - Fournier Pharma,Inc.
+    - Starlims ,Inc.
+    - AMO Global Holdings
+    - AMO Ireland, Cayman Islands
+    - AMO Puerto Rico Manufacturing,Inc.
+    - VISX
+    - Abbott   Laboratories de  Limitada
+    - Abbott   Laboratories de , S.A.
+    - Abbott Healthcare Costa Rica, S.A., Costa Rica
+    - Abbott Vascular Limitada
+    - Abbott Laboratories d.o.o.
+    - Abbott Overseas Subsidiary Holding (Cyprus)   Limited, Cyprus
+    - Abbott Laboratories, s.r.o.
+    - Abbott Laboratories A/S
+    - AMO Denmark, Denmark
+    - Abbott   Laboratorios del Ecuador Cia. , Ltda., Ecuador
+    - Abbott Healthcare LLC
+    - Abbott Limited  LLC
+    - Abbott Products  LLC
+    - Abbott Products Limited
+    - Abbott, S.A. de   C.V.
+    - Abbott Oy
+    - Abbott    Instruments S.A.S.
+    - Abbott    S.A.S.
+    - Abbott Healthcare SAS
+    - Abbott Products S.A.S.
+    - AMO    S.A.S.
+    - Fournier   Industrie et Sante, France
+    - Laboratoires   Fournier S.A.S.
+    - STARLIMS France   S.A.S., France
+    - Vivasol SNC
+    - Abbott Arzneimittel GmbH
+    - Abbott Diagnostics GmbH
+    - Abbott GmbH&amp; Co. KG, Germany
+    - Abbott Holding GmbH
+    - Abbott   Laboratories GmbH
+    - Abbott Management GmbH
+    - Abbott Vascular   Deutschland GmbH
+    - Abbott Vascular   Instruments Deutschland GmbH
+    - AMO  GmbH
+    - Fournier Pharma GmbH
+    - Starlims Germany   GmbH, Germany
+    - IDEV Technologies GmbH
+    - Abbott Asia (Gibraltar) Limited, Gibraltar
+    - Abbott Asia Subsidiary (Gibraltar) Limited, Gibraltar
+    - Abbott Holding (Gibraltar) Limited, Gibraltar
+    - Abbott Holding Subsidiary (Gibraltar)   Limited, Gibraltar
+    - Abbott Laboratories (Hellas) S.A.
+    - Abbott Laboratorios, S.A.
+    - Abbott Laboratories Limited
+    - AMO Asia Limited
+    - Starlims Asia Pacific Limited
+    - Abbott Laboratories (Hungary) Health   Products and Medical Equipment Trading and Servicing Limited Liability   Company, Hungary
+    - Abbott Healthcare Private Limited
+    - Abbott  Limited, , (74.99%)
+    - Abbott Medical Optics Private Limited
+    - Abbott Truecare Pharma Private Limited
+    - Abind Healthcare Pvt. Ltd.
+    - PT. Abbott Indonesia, Indonesia, (99%)
+    - PT. Abbott Products Indonesia, Indonesia
+    - Abbott Healthcare Products Limited
+    - Abbott  Limited
+    - Abbott Laboratories Vascular Enterprises
+    - Abbott Laboratories,Ireland, Limited, Ireland
+    - Abbott Mature Products International Limited
+    - Abbott Mature Products Management Limited
+    - Abbott Nutrition Limited
+    - Abbott Products
+    - AMO International Holdings
+    - AMO  Export Ltd.
+    - AMO Ireland Finance, Ireland
+    - AMO Regional Holdings
+    - Salviac Limited
+    - Abbott Medical Laboratories LTD
+    - STARLIMS Technologies LTD
+    - L.I.M.S. Management Systems
+    - L.I.M.S. Holdings 2000 Ltd.
+    - Abbott S.r.l.
+    - Abbott Vascular Knoll-Ravizza S.p.A.
+    - AMO Italy Srl, Italy
+    - Autonomous Employee Welfare Fund for Abbott   S.p.A. Dirigenti
+    - Abbott West Indies Limited, , (51%)
+    - Abbott  Co.,Ltd.
+    - Abbott Vascular  Co.,Ltd.
+    - AMO  K.K.
+    - Optimedica Japan, Japan
+    - Abbott Korea Limited, Korea, South
+    - Abbott Laboratories Baltics SIA
+    - Abbott Middle East S.A.R.L.
+    - UAB &#147;Abbott Laboratories&#148;
+    - Abbott Healthcare  S.ar.l.
+    - Abbott International  S.ar.l.
+    - Abbott Investments Luxembourg S.&#224;.r.l., Luxembourg
+    - Abbott Overseas  S.a r.l.
+    - Abbott Products  S.a r.l.
+    - Abbott South Africa Luxembourg S.ar.l., Luxembourg
+    - Abbott Holding Subsidiary (Gibraltar) Ltd   Luxembourg S.C.S., Luxembourg
+    - Abbott   Laboratories  Sdn. Bhd.
+    - AMO Malta, Malta
+    - Abbott   Laboratories de , S.A. de C.V.
+    - Abbott   Laboratories (Mozambique), Limitada, Mozambique
+    - Abbott B.V.
+    - Abbott Biologicals B.V.
+    - Abbott Healthcare B.V.
+    - Abbott Healthcare Products B.V.
+    - Abbott Holdings B.V.
+    - Abbott Knoll Investments B.V.
+    - Abbott Laboratories B.V.
+    - Abbott Logistics B.V.
+    - Abbott Nederland C.V.
+    - Abbott  Investments B.V.
+    - Abbott PR Holdings B.V.
+    - Abbott Vascular Netherlands B.V., Netherlands
+    - AbbVie Venezuela B.V., Netherlands
+    - AMO Groningen   B.V.
+    - AMO  B.V.
+    - Duphar International Research B.V.
+    - EAS International B.V.
+    - IDEV Technologies B.V.
+    - IMTC Finance B.V.
+    - IMTC Holdings B.V.
+    - Octrooibureau Zoan B.V.
+    - STARLIMS Netherlands B.V., Netherlands
+    - Abbott Laboratories NZ Limited
+    - STARLIMS New Zealand Limited, New Zealand
+    - Abbott Norge AS
+    - AMO Norway AS, Norway
+    - Abbott Laboratories (Pakistan) Limited, Pakistan, (78.84%)
+    - Abbott Laboratories, C.A., Panama
+    - Abbott Overseas, S.A.
+    - AMO (Hangzhou) Co.,Ltd., People&#146;s Republic of China
+    - Abbott (Guangzhou) Nutritionals   Co.,Ltd., People&#146;s Republic of China
+    - Abbott (Jiaxing) Nutrition Co. Ltd., People&#146;s Republic of
+    - Abbott Laboratories Trading (Shanghai)   Co.,Ltd., People&#146;s Republic of
+    - Abbott Medical Devices Trading (Shanghai)   Co.,Ltd., People&#146;s Republic of
+    - AMO (Shanghai) Medical Devices Trading   Co.,Ltd., People&#146;s Republic of China
+    - Shanghai Abbott Pharmaceutical   Co.,Ltd., People&#146;s Republic of , (75%)
+    - Abbott Laboratorios S.A.
+    - Abbott Laboratories (Philippines), Philippines
+    - Abbott Products (Philippines) Inc., Philippines
+    - Abbott Laboratories Poland Sp z.o.o., Poland
+    - Abbott Products Sp. z o.o., Poland
+    - Abbott   Laboratorios, Limitada
+    - Abbottfarma -   Promocao de Produtos Farmaceuticos, L , da
+    - Premier -   Promocao de Produtos Farmaceuticos, L , da
+    - Abbott Laboratories (Puerto Rico)   Incorporated, Puerto Rico
+    - Abbott Products  S.R.L.
+    - Abbott Products Limited Liability Company
+    - Limited Liability Company &#147;Abbott   Laboratories&#148;
+    - Abbott Laboratories (Singapore) Private   Limited, Singapore
+    - Abbott Manufacturing  Private   Limited
+    - AMO  Pte. Limited
+    - Starlims (SEA) PTE. LTD.
+    - 3A Pharma  Pte. Limited
+    - Abbott Laboratories  s.r.o.
+    - Abbott Laboratories druzba za farmacijo in   diagnostiko d.o.o.
+    - Abbott Laboratories South Africa (Pty) Ltd., South Africa
+    - Experimental&amp; Applied Sciences   Africa (Proprietary) Limited
+    - Abbott Laboratories, S.A.
+    - AMO Manufacturing Spain, S.L., Spain
+    - STARLIMS Ib&#233;rica, S.A.
+    - Abbott Medical Optics Norden AB
+    - Abbott Scandinavia AB
+    - Advanced Medical Optics Uppsala AB
+    - Abbott AG
+    - Abbott Finance Company SA
+    - Abbott Laboratories SA
+    - Abbott Products Operations AG
+    - AMO Switzerland   GmbH, Switzerland
+    - Abbott Fund  Limited
+    - Abbott Laboratories Ltd.
+    - Abbott Laboratuarlari Ithalat Ihracat Ve   Ticaret Limited Sirketi
+    - Limited Liability Company &#147;Abbott Ukraine&#148;, Ukraine
+    - Abbott (UK) Finance Limited, United Kingdom
+    - Abbott (UK) Holdings Limited, United Kingdom
+    - Abbott Asia Holdings Limited
+    - Abbott Asia Investments Limited
+    - Abbott Australasia Holdings Limited
+    - Abbott Capital India Limited
+    - Abbott Diabetes Care Limited
+    - Abbott Equity Holdings Unlimited
+    - Abbott Healthcare Products Ltd.
+    - Abbott Iberian Investments (2)Limited
+    - Abbott Iberian Investments Limited
+    - Abbott Laboratories Limited
+    - Abbott Laboratories Trustee Company Limited
+    - Abbott Vascular Devices (2)Limited
+    - Abbott Vascular Devices Limited
+    - AMO  Limited
+    - British Colloids
+    - Experimental and Applied Sciences UK Limited
+    - Fournier Pharmaceuticals Limited
+    - Knoll (UK) Investments Unlimited, United Kingdom
+    - Mansbridge Pharmaceuticals Ltd.
+    - Murex Biotech Limited
+    - STARLIMS Europe Limited, United Kingdom
+    - Abbott Laboratories  S.A.
+    - Abbott Laboratories C.A.
+    - AbbVie Pharmaceuticals SCA 
+    - 3A Nutrition (Vietnam) Company Limited, Vietnam
+    - Abbott Trading Company,Inc.
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1176316, date_filed: "2014-03-14", file_name: "edgar/data/1176316/0001144204-14-015855.txt", form_type: "10-K", id: 2545} [%{name: "Subsidiary and Name Under Which, Business is Done, Jurisdiction of Incorporation, or Organization"}, %{location: "United States", name: "Access National Bank"}, %{location: "Virginia", name: "Access National Leasing Corporation (inactive)"}, %{location: "Virginia", name: "Access Capital Management Holding, LLC"}, %{location: "Virginia", name: "Capital Fiduciary Advisors, L.L.C."}, %{location: "Virginia", name: "Access Investment Services, L.L.C."}, %{location: "Virginia", name: "Access Insurance Group, L.L.C. (inactive)"}, %{location: "Virginia", name: "Acme Real Estate LLC"}, %{location: "Virginia", name: "Access Real Estate LLC"}, %{location: "Virginia", name: "Access National Capital Trust I (inactive)"}, %{location: "Virginia", name: "Access National Capital Trust II"}]
+    - Subsidiary and Name Under Which, Business is Done, Jurisdiction of Incorporation, or Organization
+    - Access National Bank
+    - Access National Leasing Corporation (inactive)
+    - Access Capital Management Holding, LLC
+    - Capital Fiduciary Advisors, L.L.C.
+    - Access Investment Services, L.L.C.
+    - Access Insurance Group, L.L.C. (inactive)
+    - Acme Real Estate LLC
+    - Access Real Estate LLC
+    - Access National Capital Trust I (inactive)
+    - Access National Capital Trust II
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 318306, date_filed: "2014-03-26", file_name: "edgar/data/318306/0000318306-14-000006.txt", form_type: "10-K", id: 2546} []
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1483096, date_filed: "2014-02-21", file_name: "edgar/data/1483096/0001564590-14-000295.txt", form_type: "10-K", id: 2544} [%{name: "State of Formation"}, %{location: "Oklahoma", name: "Access Midstream Gas Services, L.L.C."}, %{location: "Delaware", name: "Access MLP Operating, L.L.C."}, %{location: "Permian Midstream Oklahoma", name: "Access Permian Midstream, L.L.C., Oklahoma"}, %{location: "Oklahoma", name: "Access West Texas Processing, L.L.C."}, %{location: "Delaware", name: "ACMP Finance Corp."}, %{location: "Oklahoma", name: "Appalachia Midstream Services, L.L.C."}, %{location: "Oklahoma", name: "Bluestem Gas Services, L.L.C. d/b/a Pecan Hill Water Solutions"}, %{location: "Delaware", name: "Cardinal Gas Services, L.L.C."}, %{location: "Oklahoma", name: "Jackalope Gas Gathering Services, L.L.C."}, %{location: "Oklahoma", name: "Louisiana Midstream Gas Services, L.L.C."}, %{location: "Oklahoma", name: "Magnolia Midstream Gas Services, L.L.C."}, %{location: "Mid-Atlantic Oklahoma", name: "Mid-Atlantic Gas Services, L.L.C., Oklahoma"}, %{location: "Oklahoma", name: "Mockingbird Midstream Gas Services, L.L.C."}, %{location: "Oklahoma Midstream Oklahoma", name: "Oklahoma Midstream Gas Services, L.L.C., Oklahoma"}, %{location: "Delaware", name: "Ponder Midstream Gas Services, L.L.C."}, %{location: "Delaware", name: "Ranch Westex JV LLC."}, %{location: "Oklahoma", name: "Texas Midstream Gas Services, L.L.C."}, %{location: "Utica East Ohio Delaware", name: "Utica East Ohio Midstream LLC., Delaware"}, %{location: "Utica Oklahoma", name: "Utica Gas Services, L.L.C., Oklahoma"}]
+    - State of Formation
+    - Access Midstream Gas Services, L.L.C.
+    - Access MLP Operating, L.L.C.
+    - Access Permian Midstream, L.L.C., Oklahoma
+    - Access West Texas Processing, L.L.C.
+    - ACMP Finance Corp.
+    - Appalachia Midstream Services, L.L.C.
+    - Bluestem Gas Services, L.L.C. d/b/a Pecan Hill Water Solutions
+    - Cardinal Gas Services, L.L.C.
+    - Jackalope Gas Gathering Services, L.L.C.
+    - Louisiana Midstream Gas Services, L.L.C.
+    - Magnolia Midstream Gas Services, L.L.C.
+    - Mid-Atlantic Gas Services, L.L.C., Oklahoma
+    - Mockingbird Midstream Gas Services, L.L.C.
+    - Oklahoma Midstream Gas Services, L.L.C., Oklahoma
+    - Ponder Midstream Gas Services, L.L.C.
+    - Ranch Westex JV LLC.
+    - Texas Midstream Gas Services, L.L.C.
+    - Utica East Ohio Midstream LLC., Delaware
+    - Utica Gas Services, L.L.C., Oklahoma
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1002388, date_filed: "2014-03-10", file_name: "edgar/data/1002388/0001002388-14-000006.txt", form_type: "10-K", id: 2543} [%{location: "Germany", name: "Accelrys GmbH"}, %{location: "Delaware", name: "Accelrys Software Incorporated"}, %{location: "United Kingdom", name: "Accelrys Limited"}, %{location: "France", name: "Accelrys SARL"}, %{location: "Japan", name: "Accelrys KK"}, %{location: "India", name: "Accelrys Software Solutions Pvt., Ltd."}, %{location: "Delaware", name: "Symyx Technologies, Inc."}, %{location: "United Kingdom", name: "Oxford Molecular Limited"}, %{location: "Delaware", name: "SciTegic, Inc."}, %{location: "United Kingdom", name: "Synopsys Scientific Systems Limited"}, %{location: "United Kingdom", name: "Synomics Limited"}, %{location: "Delaware", name: "Symyx Solutions, Inc."}, %{location: "Delaware", name: "Symyx International"}, %{location: "Japan", name: "Symyx KK"}, %{location: "Switzerland", name: "Symyx Europe SA"}, %{location: "Sweden", name: "Symyx AG"}, %{location: "Sweden", name: "Contur Industry Holding AB"}, %{location: "Sweden", name: "Contur Software AB"}, %{location: "Delaware", name: "VelQuest Corporation"}, %{location: "Delaware", name: "Aegis Analytical Corporation"}, %{location: "Switzerland", name: "Vialis AG"}, %{location: "Delaware", name: "ChemSW, Inc."}, %{location: "Ireland", name: "Qumas Limited"}]
+    - Accelrys GmbH
+    - Accelrys Software Incorporated
+    - Accelrys Limited
+    - Accelrys SARL
+    - Accelrys KK
+    - Accelrys Software Solutions Pvt., Ltd.
+    - Symyx Technologies, Inc.
+    - Oxford Molecular Limited
+    - SciTegic, Inc.
+    - Synopsys Scientific Systems Limited
+    - Synomics Limited
+    - Symyx Solutions, Inc.
+    - Symyx International
+    - Symyx KK
+    - Symyx Europe SA
+    - Symyx AG
+    - Contur Industry Holding AB
+    - Contur Software AB
+    - VelQuest Corporation
+    - Aegis Analytical Corporation
+    - Vialis AG
+    - ChemSW, Inc.
+    - Qumas Limited
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1280600, date_filed: "2014-03-17", file_name: "edgar/data/1280600/0001047469-14-002530.txt", form_type: "10-K", id: 2542} [%{location: "Massachusetts", name: "Acceleron Securities Corporation"}]
+    - Acceleron Securities Corporation
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 899629, date_filed: "2014-02-26", file_name: "edgar/data/899629/0000899629-14-000008.txt", form_type: "10-K", id: 2540} []
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1070494, date_filed: "2014-02-27", file_name: "edgar/data/1070494/0001193125-14-073040.txt", form_type: "10-K", id: 2539} [%{name: "NAME OF SUBSIDIARY, JURISDICTION OF INCORPORATION"}, %{location: "Denmark", name: "ACADIA Pharmaceuticals A/S"}]
+    - NAME OF SUBSIDIARY, JURISDICTION OF INCORPORATION
+    - ACADIA Pharmaceuticals A/S
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 934549, date_filed: "2014-03-03", file_name: "edgar/data/934549/0000934549-14-000004.txt", form_type: "10-K", id: 2538} [%{name: "Jurisdiction of, Incorporation"}, %{location: "Delaware", name: "Acacia Global Acquisition LLC and subsidiaries"}, %{location: "Delaware", name: "Acacia Research Group, LLC, formerly Acacia Patent Acquisition, LLC and subsidiaries"}]
+    - Jurisdiction of, Incorporation
+    - Acacia Global Acquisition LLC and subsidiaries
+    - Acacia Research Group, LLC, formerly Acacia Patent Acquisition, LLC and subsidiaries
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1018840, date_filed: "2014-03-31", file_name: "edgar/data/1018840/0001018840-14-000033.txt", form_type: "10-K", id: 2536} [%{name: "(a), Wholly-owned subsidiary of Abercrombie &amp; Fitch Co., the registrant"}, %{name: "(b), Wholly-owned subsidiary of Abercrombie &amp; Fitch Holding Corporation"}, %{name: "(c), Wholly-owned subsidiary of Abercrombie &amp; Fitch Management Co."}, %{name: "(d), Wholly-owned subsidiary of A&amp;F Trademark, Inc."}, %{name: "(e), Wholly-owned subsidiary of Abercrombie &amp; Fitch Stores, Inc."}, %{name: "(f), Wholly-owned subsidiary of Abercrombie &amp; Fitch International, Inc."}, %{name: "(g), Wholly-owned subsidiary of J.M.H. Trademark, Inc."}, %{name: "(h), Wholly-owned subsidiary of A&amp;F Canada Holding Co."}, %{name: "(i), Wholly-owned subsidiary of Abercrombie &amp; Fitch Europe SA"}, %{name: "(j), Wholly-owned subsidiary of Abercrombie &amp; Fitch Trading Co."}, %{name: "(k), Wholly-owned subsidiary of Abfico Netherlands Distribution B.V."}, %{location: "Hong Kong Limited", name: "(l), Wholly-owned subsidiary of AFH"}, %{name: "(m), Joint Venture- AFH Logistics DWC LLC-49%, Majid Futtlaim Fashion LLC 51%"}, %{name: "Subsidiaries of Abercrombie &amp; Fitch Co.:, Jurisdiction:"}, %{location: "Delaware", name: "1., Abercrombie &amp; Fitch Holding Corporation (a)"}, %{location: "Ohio", name: "2., Abercrombie &amp; Fitch Distribution Company (b)"}, %{location: "Delaware", name: "3., Abercrombie &amp; Fitch Management Co. (b)"}, %{location: "Delaware", name: "4., A &amp; F Trademark, Inc. (c)"}, %{location: "Ohio", name: "5., Abercrombie &amp; Fitch Stores, Inc. (c)"}, %{location: "Delaware", name: "6., Hollister Co. (c)"}, %{location: "Delaware", name: "7., Abercrombie &amp; Fitch International, Inc. (c)"}, %{location: "Ohio", name: "8., Fan Company, LLC (c)"}, %{location: "Ohio", name: "9., Canoe, LLC (c)"}, %{location: "Ohio", name: "10., Crombie, LLC (c)"}, %{location: "Ohio", name: "11., DFZ, LLC (c)"}, %{location: "Ohio", name: "12., NSOP, LLC (c)"}, %{location: "Delaware", name: "13., J.M.H. Trademark, Inc. (d)"}, %{location: "Ohio", name: "14., J.M. Hollister, LLC (e)"}, %{location: "Ohio", name: "15., Ruehl No. 925, LLC (e)"}, %{location: "Ohio", name: "16., Gilly Hicks, LLC (e)"}, %{location: "Switzerland", name: "17., Abercrombie &amp; Fitch Europe SA (f)"}, %{location: "Hong Kong", name: "18., Abercrombie &amp; Fitch  Limited (f)"}, %{location: "Ohio", name: "19., AFH Puerto Rico LLC (f),  (Qualified in PR)"}, %{location: "Brazil", name: "20., AFH Brasil Participacoes Ltda (f)"}, %{location: "Delaware", name: "21., A&amp;F Canada Holding Co. (f)"}, %{location: "Ohio", name: "22., Abercrombie &amp; Fitch Trading Co. (g)"}, %{name: "23., AFH Canada Stores Co.  (h), Nova Scotia"}, %{location: "Japan Japan", name: "24., AFH Japan GK (i), Japan"}, %{location: "Italy", name: "25., Abercrombie &amp; Fitch Italia SRL (i)"}, %{location: "UK United Kingdom", name: "26., Abercrombie &amp; Fitch (UK) Limited (i), United Kingdom"}, %{location: "UK United Kingdom", name: "27., AFH Stores UK Limited (i), United Kingdom"}, %{location: "France France", name: "28., Abercrombie &amp; Fitch (France) SAS (i), France"}, %{location: "Denmark Denmark", name: "29., Abercrombie &amp; Fitch (Denmark) ApS (i), Denmark"}, %{location: "Spain Spain", name: "30., Abercrombie &amp; Fitch (Spain) S.L. (i), Spain"}, %{location: "The Netherlands", name: "31., Abfico Netherlands Distribution B.V. (i)"}, %{location: "The Netherlands", name: "32., European Regional Inventory Control NL B.V. (i)"}, %{location: "Hong Kong Hong Kong", name: "33., AFH Hong Kong Limited (i), Hong Kong"}, %{location: "Ireland", name: "34., A&amp;F Hollister  Limited (i)"}, %{location: "Hong Kong", ...}, %{...}, ...]
+    - (a), Wholly-owned subsidiary of Abercrombie &amp; Fitch Co., the registrant
+    - (b), Wholly-owned subsidiary of Abercrombie &amp; Fitch Holding Corporation
+    - (c), Wholly-owned subsidiary of Abercrombie &amp; Fitch Management Co.
+    - (d), Wholly-owned subsidiary of A&amp;F Trademark, Inc.
+    - (e), Wholly-owned subsidiary of Abercrombie &amp; Fitch Stores, Inc.
+    - (f), Wholly-owned subsidiary of Abercrombie &amp; Fitch International, Inc.
+    - (g), Wholly-owned subsidiary of J.M.H. Trademark, Inc.
+    - (h), Wholly-owned subsidiary of A&amp;F Canada Holding Co.
+    - (i), Wholly-owned subsidiary of Abercrombie &amp; Fitch Europe SA
+    - (j), Wholly-owned subsidiary of Abercrombie &amp; Fitch Trading Co.
+    - (k), Wholly-owned subsidiary of Abfico Netherlands Distribution B.V.
+    - (l), Wholly-owned subsidiary of AFH
+    - (m), Joint Venture- AFH Logistics DWC LLC-49%, Majid Futtlaim Fashion LLC 51%
+    - Subsidiaries of Abercrombie &amp; Fitch Co.:, Jurisdiction:
+    - 1., Abercrombie &amp; Fitch Holding Corporation (a)
+    - 2., Abercrombie &amp; Fitch Distribution Company (b)
+    - 3., Abercrombie &amp; Fitch Management Co. (b)
+    - 4., A &amp; F Trademark, Inc. (c)
+    - 5., Abercrombie &amp; Fitch Stores, Inc. (c)
+    - 6., Hollister Co. (c)
+    - 7., Abercrombie &amp; Fitch International, Inc. (c)
+    - 8., Fan Company, LLC (c)
+    - 9., Canoe, LLC (c)
+    - 10., Crombie, LLC (c)
+    - 11., DFZ, LLC (c)
+    - 12., NSOP, LLC (c)
+    - 13., J.M.H. Trademark, Inc. (d)
+    - 14., J.M. Hollister, LLC (e)
+    - 15., Ruehl No. 925, LLC (e)
+    - 16., Gilly Hicks, LLC (e)
+    - 17., Abercrombie &amp; Fitch Europe SA (f)
+    - 18., Abercrombie &amp; Fitch  Limited (f)
+    - 19., AFH Puerto Rico LLC (f),  (Qualified in PR)
+    - 20., AFH Brasil Participacoes Ltda (f)
+    - 21., A&amp;F Canada Holding Co. (f)
+    - 22., Abercrombie &amp; Fitch Trading Co. (g)
+    - 23., AFH Canada Stores Co.  (h), Nova Scotia
+    - 24., AFH Japan GK (i), Japan
+    - 25., Abercrombie &amp; Fitch Italia SRL (i)
+    - 26., Abercrombie &amp; Fitch (UK) Limited (i), United Kingdom
+    - 27., AFH Stores UK Limited (i), United Kingdom
+    - 28., Abercrombie &amp; Fitch (France) SAS (i), France
+    - 29., Abercrombie &amp; Fitch (Denmark) ApS (i), Denmark
+    - 30., Abercrombie &amp; Fitch (Spain) S.L. (i), Spain
+    - 31., Abfico Netherlands Distribution B.V. (i)
+    - 32., European Regional Inventory Control NL B.V. (i)
+    - 33., AFH Hong Kong Limited (i), Hong Kong
+    - 34., A&amp;F Hollister  Limited (i)
+    - 35., AFH  Stores Limited (i)
+    - 36., AFH  Pte. Ltd. (i)
+    - 37., A&amp;F HCo Stores AT GmbH (i)
+    - 38., AFH Belgium SPRL (i), Belgium
+    - 39., AFH Korea Yuhan Hoesa (i), South Korea
+    - 40., AFH  Sp. Z o.o (i)
+    - 41., AFHCo Stores NL BV (i)
+    - 42., AFH Switzerland SA (i), Switzerland
+    - 43., AFH Fulfillment NL BV (i)
+    - 44., AFH TR Perakende Satis Limited Sirketi (i)
+    - 45., AFH  Pty. Ltd. (i)
+    - 46., AFH Finland Oy (i), Finland
+    - 47., AFH  Co., Ltd. (i)
+    - 48., Abercrombie &amp; Fitch Procurement Services, LLC (j)
+    - 49., Hollister Co. California, LLC (j), California
+    - 50., AFH Germany GmbH (k), Germany
+    - 51., AFH Sweden AB (k), Sweden
+    - 52., AFH Trading (Shanghai) Co., Ltd. (l), China
+    - 53., AFH International Trading Shanghai Co., Ltd. (l)
+    - 54., AFH Logistics DWC, LLC (i)
+    - 55., Hollister Fashion, LLC (m)
+    - 56., AFH BLP HK Limited (i)
+    - 57., AFH HK DTC Limited (dormant) (f)
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 817979, date_filed: "2014-03-06", file_name: "edgar/data/817979/0000817979-14-000008.txt", form_type: "10-K", id: 2549} [%{name: "(a), Exhibit 21.1"}, %{name: "Subsidiary,  , Jurisdiction of Incorporation"}, %{location: "Canada Ontario", name: "Accuride Canada, Inc.,  , Canada (Ontario)"}, %{location: "Delaware", name: "Accuride Cuyahoga Falls, Inc.,  "}, %{location: "Mexico Mexico", name: "Accuride de Mexico, S.A. de C.V. (1),  , Mexico"}, %{location: "Delaware", name: "Accuride Distributing, LLC,  "}, %{location: "Delaware", name: "Accuride Erie, L.P.,  "}, %{location: "Delaware", name: "Accuride Henderson Limited Liability Company,  "}, %{location: "Delaware", name: "Accuride EMI, LLC,  "}, %{location: "Delaware", name: "AKW General Partner, L.L.C.,  "}, %{location: "Delaware", name: "AOT, Inc.,  "}, %{location: "Delaware", name: "Erie Land Holding, Inc,  "}, %{location: "Delaware", name: "Transportation Technologies Industries, Inc. (2),  "}, %{location: "Mexico", name: "(1), Accuride de  S.A. de C.V.&#8217;s subsidiaries include Accuride Monterrey, S.de R.L de C.V. and Accuride del Norte, S.A. de C.V. (all of which are incorporated in )."}, %{location: "Bostrom Mexico", name: "(2), TTI&#8217;s subsidiaries include Truck Components Inc., Gunite Corporation, Brillion Iron Works, Inc., Bostrom Holdings, Inc., Bostrom Seating, Inc., Bostrom Specialty Seating, Inc., Imperial Group Holding Corp. -1, Imperial Group Holding Corp. -2, JAII Management Company, IG Holdings, L.P., and , S.A. de C.V."}]
+    - (a), Exhibit 21.1
+    - Subsidiary,  , Jurisdiction of Incorporation
+    - Accuride Canada, Inc.,  , Canada (Ontario)
+    - Accuride Cuyahoga Falls, Inc.,  
+    - Accuride de Mexico, S.A. de C.V. (1),  , Mexico
+    - Accuride Distributing, LLC,  
+    - Accuride Erie, L.P.,  
+    - Accuride Henderson Limited Liability Company,  
+    - Accuride EMI, LLC,  
+    - AKW General Partner, L.L.C.,  
+    - AOT, Inc.,  
+    - Erie Land Holding, Inc,  
+    - Transportation Technologies Industries, Inc. (2),  
+    - (1), Accuride de  S.A. de C.V.&#8217;s subsidiaries include Accuride Monterrey, S.de R.L de C.V. and Accuride del Norte, S.A. de C.V. (all of which are incorporated in ).
+    - (2), TTI&#8217;s subsidiaries include Truck Components Inc., Gunite Corporation, Brillion Iron Works, Inc., Bostrom Holdings, Inc., Bostrom Seating, Inc., Bostrom Specialty Seating, Inc., Imperial Group Holding Corp. -1, Imperial Group Holding Corp. -2, JAII Management Company, IG Holdings, L.P., and , S.A. de C.V.
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 712034, date_filed: "2014-02-25", file_name: "edgar/data/712034/0000712034-14-000011.txt", form_type: "10-K", id: 2548} [%{name: "Name of Subsidiary, Jurisdiction of Organization"}, %{location: "U.S.", name: "Subsidiaries:"}, %{location: "Delaware", name: "ACCO Brands International, Inc."}, %{location: "Delaware", name: "ACCO Brands USA LLC"}, %{location: "Delaware", name: "ACCO Europe Finance Holdings, LLC"}, %{location: "Delaware", name: "ACCO Europe International Holdings, LLC"}, %{location: "Delaware", name: "ACCO International Holdings, Inc."}, %{location: "Delaware", name: "General Binding LLC"}, %{location: "Nevada", name: "GBC International, Inc."}, %{name: "International Subsidiaries:"}, %{location: "Australia", name: "ACCO  Pty. Ltd."}, %{location: "Australia", name: "ACCO Brands  Holding Pty. Ltd."}, %{location: "Australia", name: "ACCO Brands  Pty. Ltd."}, %{location: "Brazil", name: "Tilibra Produtos de Papelaria Ltda"}, %{location: "Canada", name: "ACCO Brands C&amp;OP Inc."}, %{location: "Canada", name: "ACCO Brands  Inc."}, %{location: "Canada", name: "ACCO Brands  LP"}, %{location: "Canada", name: "ACCO Brands CDA Ltd."}, %{location: "England", name: "ACCO Brands Europe Holding LP"}, %{location: "England", name: "ACCO Brands Europe Ltd."}, %{location: "England", name: "ACCO Europe Finance LP"}, %{location: "England", name: "ACCO Europe Ltd."}, %{location: "England", name: "ACCO-Rexel Group Services Limited"}, %{location: "England", name: "ACCO UK Limited"}, %{location: "Germany", name: "ACCO Deutschland Beteiligungsgesellschaft mbh"}, %{location: "Ireland", name: "ACCO-Rexel Limited"}, %{location: "Italy", name: "ACCO Brands Italia S.r.L."}, %{location: "Japan", name: "ACCO Brands  K.K."}, %{location: "Mexico", name: "ACCO Mexicana S.A. de C.V."}, %{location: "Netherlands", name: "ACCO Brands Benelux B.V."}, %{location: "Netherlands", name: "ACCO Nederland Holding B.V."}, %{location: "Sweden", name: "GBC Europe AB"}]
+    - Name of Subsidiary, Jurisdiction of Organization
+    - Subsidiaries:
+    - ACCO Brands International, Inc.
+    - ACCO Brands USA LLC
+    - ACCO Europe Finance Holdings, LLC
+    - ACCO Europe International Holdings, LLC
+    - ACCO International Holdings, Inc.
+    - General Binding LLC
+    - GBC International, Inc.
+    - International Subsidiaries:
+    - ACCO  Pty. Ltd.
+    - ACCO Brands  Holding Pty. Ltd.
+    - ACCO Brands  Pty. Ltd.
+    - Tilibra Produtos de Papelaria Ltda
+    - ACCO Brands C&amp;OP Inc.
+    - ACCO Brands  Inc.
+    - ACCO Brands  LP
+    - ACCO Brands CDA Ltd.
+    - ACCO Brands Europe Holding LP
+    - ACCO Brands Europe Ltd.
+    - ACCO Europe Finance LP
+    - ACCO Europe Ltd.
+    - ACCO-Rexel Group Services Limited
+    - ACCO UK Limited
+    - ACCO Deutschland Beteiligungsgesellschaft mbh
+    - ACCO-Rexel Limited
+    - ACCO Brands Italia S.r.L.
+    - ACCO Brands  K.K.
+    - ACCO Mexicana S.A. de C.V.
+    - ACCO Brands Benelux B.V.
+    - ACCO Nederland Holding B.V.
+    - GBC Europe AB
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 896159, date_filed: "2014-02-28", file_name: "edgar/data/896159/0000896159-14-000003.txt", form_type: "10-K", id: 2550} [%{name: "Exhibit21.1, Set forth below are subsidiaries of ACE and their respective jurisdiction of ownership and percentage ownership, in each case as of December 31, 2013. Each of the named subsidiaries is not necessarily a significant subsidiary as defined in Rule 1-02(w) of Regulation S-X, and ACE has several additional subsidiaries not named below. The unnamed subsidiaries, considered in the aggregate as a single subsidiary, would not constitute a significant subsidiary at the end of the year covered by this report. "}, %{name: "Name, Jurisdiction of Organization, Percentage, Ownership"}, %{location: "Switzerland", name: "ACE Limited, , Publicly held"}, %{location: "Switzerland Switzerland", name: "ACE Insurance (Switzerland) Limited, Switzerland, 100%"}, %{location: "Switzerland Switzerland", name: "ACE Reinsurance (Switzerland) Limited, Switzerland, 100%"}, %{location: "Bermuda", name: "ACE Group Management and Holdings Ltd., , 100%"}, %{location: "Bermuda", name: "ACE  Insurance Ltd., , 100%"}, %{location: "Bermuda", name: "Paget Reinsurance Ltd., , 100%"}, %{name: "ACE Capital Title Reinsurance Company,                      (EI# 06-1434264, NAIC# 50028, NY), USA, (New York), 100%"}, %{name: "ACE Financial Solutions International, Ltd.                                                                                        , Bermuda, 100%"}, %{location: "Ireland Ireland", name: "ACE Bermuda International Insurance (Ireland) Limited,                   (formerly ACE European Markets Insurance Limited), Ireland, 100%"}, %{location: "Bermuda", name: "Corporate Officers &amp; Directors Assurance Ltd., , 100%"}, %{location: "Bermuda", name: "Oasis Real Estate Company Ltd., , 100%"}, %{location: "Bermuda", name: "Sovereign Risk Insurance Limited, , 100%"}, %{location: "Dubai UAE Dubai", name: "Sovereign Risk Insurance (Dubai) Limited      , UAE (Dubai), 100%"}, %{location: "Bermuda", name: "ACE Realty Holdings Limited, , 100%"}, %{location: "Bermuda", name: "Oasis Investments Limited, , 33%, 67% (ACE Tempest Reinsurance Ltd.)"}, %{location: "Bermuda", name: "Oasis Investments 2 Ltd., , 33%,    67%  (ACE Tempest Reinsurance Ltd.)"}, %{location: "England Wales", name: "ACE Global Markets Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE Group Holdings Limited, England &amp; Wales, 100%"}, %{location: "England Wales", name: "ACE Tarquin  , England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE Capital V Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE Leadenhall Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE Underwriting Agencies Limited, England &amp; Wales, 100%"}, %{name: "ACE London Group Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE Capital Limited, England &amp; Wales, 100%"}, %{location: "England Wales", name: "ACE Capital III Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE Capital IV Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE London Holdings Limited, England &amp; Wales, 100%"}, %{location: "England Wales", name: "ACE Capital II Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE London Investments Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE London Aviation Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE London Underwriting Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE Underwriting Services Limited, England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE London Services Limited , England &amp; Wales, 100%"}, %{location: "England & Wales", name: "ACE  Capital VI Limited, England &amp; Wales, 100%"}, %{location: "Cayman Islands", name: "ACE Services Limited, , 100%"}, %{location: "Gibraltar Gibraltar", name: "ACE Holdings (Gibraltar) Limited, Gibraltar, 100%"}, %{location: "Gibraltar", name: "ACE  Limited, , 100%"}, %{location: "Bermuda", name: "Oasis Insurance Services Ltd., , 100%"}, %{location: "Bermuda", name: "ACE Tempest Life Reinsurance Ltd., , 100%"}, %{location: "England & Wales", name: "ACE Europe Life Limited, England &amp; Wales, 100%"}, %{location: "Bermuda", name: "ACE Tempest Reinsurance Ltd., , 100%"}, %{location: "Brazil", name: "ACE Tempest Re Escrit&#243;rio de Representa&#231;&#227;o no Brasil Ltda., , 99.999999%, 0.000001% (ACE Tempest Life Reinsurance Ltd.)"}, %{location: "Bermuda", name: "Oasis Investments Limited, , 67%, 33% (ACE  Insurance Ltd.)"}, %{location: "Bermuda", name: "Oasis Investments 2 Ltd., , 67%, 33% (ACE  Insurance Ltd.)"}, %{location: "USA Delaware", name: "ACE Group Holdings, Inc., USA (Delaware), 100%"}, %{location: "England & Wales", name: "ACE (CR) Holdings                                                                                                  , England &amp; Wales, 100%"}, %{location: "England & Wales", ...}, %{...}, ...]
+    - Exhibit21.1, Set forth below are subsidiaries of ACE and their respective jurisdiction of ownership and percentage ownership, in each case as of December 31, 2013. Each of the named subsidiaries is not necessarily a significant subsidiary as defined in Rule 1-02(w) of Regulation S-X, and ACE has several additional subsidiaries not named below. The unnamed subsidiaries, considered in the aggregate as a single subsidiary, would not constitute a significant subsidiary at the end of the year covered by this report. 
+    - Name, Jurisdiction of Organization, Percentage, Ownership
+    - ACE Limited, , Publicly held
+    - ACE Insurance (Switzerland) Limited, Switzerland, 100%
+    - ACE Reinsurance (Switzerland) Limited, Switzerland, 100%
+    - ACE Group Management and Holdings Ltd., , 100%
+    - ACE  Insurance Ltd., , 100%
+    - Paget Reinsurance Ltd., , 100%
+    - ACE Capital Title Reinsurance Company,                      (EI# 06-1434264, NAIC# 50028, NY), USA, (New York), 100%
+    - ACE Financial Solutions International, Ltd.                                                                                        , Bermuda, 100%
+    - ACE Bermuda International Insurance (Ireland) Limited,                   (formerly ACE European Markets Insurance Limited), Ireland, 100%
+    - Corporate Officers &amp; Directors Assurance Ltd., , 100%
+    - Oasis Real Estate Company Ltd., , 100%
+    - Sovereign Risk Insurance Limited, , 100%
+    - Sovereign Risk Insurance (Dubai) Limited      , UAE (Dubai), 100%
+    - ACE Realty Holdings Limited, , 100%
+    - Oasis Investments Limited, , 33%, 67% (ACE Tempest Reinsurance Ltd.)
+    - Oasis Investments 2 Ltd., , 33%,    67%  (ACE Tempest Reinsurance Ltd.)
+    - ACE Global Markets Limited, England &amp; Wales, 100%
+    - ACE Group Holdings Limited, England &amp; Wales, 100%
+    - ACE Tarquin  , England &amp; Wales, 100%
+    - ACE Capital V Limited, England &amp; Wales, 100%
+    - ACE Leadenhall Limited, England &amp; Wales, 100%
+    - ACE Underwriting Agencies Limited, England &amp; Wales, 100%
+    - ACE London Group Limited, England &amp; Wales, 100%
+    - ACE Capital Limited, England &amp; Wales, 100%
+    - ACE Capital III Limited, England &amp; Wales, 100%
+    - ACE Capital IV Limited, England &amp; Wales, 100%
+    - ACE London Holdings Limited, England &amp; Wales, 100%
+    - ACE Capital II Limited, England &amp; Wales, 100%
+    - ACE London Investments Limited, England &amp; Wales, 100%
+    - ACE London Aviation Limited, England &amp; Wales, 100%
+    - ACE London Underwriting Limited, England &amp; Wales, 100%
+    - ACE Underwriting Services Limited, England &amp; Wales, 100%
+    - ACE London Services Limited , England &amp; Wales, 100%
+    - ACE  Capital VI Limited, England &amp; Wales, 100%
+    - ACE Services Limited, , 100%
+    - ACE Holdings (Gibraltar) Limited, Gibraltar, 100%
+    - ACE  Limited, , 100%
+    - Oasis Insurance Services Ltd., , 100%
+    - ACE Tempest Life Reinsurance Ltd., , 100%
+    - ACE Europe Life Limited, England &amp; Wales, 100%
+    - ACE Tempest Reinsurance Ltd., , 100%
+    - ACE Tempest Re Escrit&#243;rio de Representa&#231;&#227;o no Brasil Ltda., , 99.999999%, 0.000001% (ACE Tempest Life Reinsurance Ltd.)
+    - Oasis Investments Limited, , 67%, 33% (ACE  Insurance Ltd.)
+    - Oasis Investments 2 Ltd., , 67%, 33% (ACE  Insurance Ltd.)
+    - ACE Group Holdings, Inc., USA (Delaware), 100%
+    - ACE (CR) Holdings                                                                                                  , England &amp; Wales, 100%
+    - ACE Capital VII Limited, England &amp; Wales, 100%
+    - ACE (RGB) Holdings Limited, England &amp; Wales, 100%
+    - ACE (CIDR) Limited, England &amp; Wales, 100%
+    - Ridge Underwriting Agencies Limited, England &amp; Wales, 100%
+    - ACE Asset Management Inc., USA (Delaware), 100%
+    - ACE Life Insurance Company , USA (Connecticut), 100%
+    - ACE INA Holdings Inc., USA (Delaware), 80%, 20% (ACE Limited)
+    - ACE Life Insurance Company Ltd. , , 100%
+    - Combined Insurance Company of America, USA, (Illinois), 100%
+    - Combined Insurance Company of Europe Limited, , 100%
+    - Combined International Services, Ltd. , , 100%
+    - Combined Life Insurance Company of , Ltd., , 100%
+    - Combined Life Insurance Company of New York, USA, (New York), 100%
+    - Employee Benefit Communications, Inc., USA, (Florida), 100%
+    - VOL Properties Corporation, USA, (Delaware), 100%
+    - Huatai Insurance Group Company, Limited, , 5.8293%, 9.7755% (ACE Tempest Reinsurance Ltd.), 4.3952% (ACE US Holdings, Inc.)
+    - Huatai Life Insurance Company, Limited, , 79.4620%, 20% (ACE INA Holdings Inc.)
+    - INA Corporation, USA (Pennsylvania), 100%
+    - INA Tax Benefits Reporting, Inc., USA (Delaware), 100%
+    - INA Financial Corporation, USA (Delaware), 100%
+    - Brandywine Holdings Corporation, USA (Delaware), 100%
+    - Cravens, Dargan &amp; Company, Pacific Coast, USA (Delaware), 100%
+    - Century Indemnity Company,                                                          (EI# 06-6105395, NAIC #20710, PA), USA (Pennsylvania), 100%
+    - Century International Reinsurance Company Ltd., , 100%
+    - INA Holdings Corporation, USA (Delaware), 100%
+    - INA International Holdings, LLC, USA (Delaware), 100%
+    - ACE INA Properties, Inc., USA (Delaware), 100%
+    - Conference Facilities, Inc., USA (Pennsylvania), 100%
+    - INA Reinsurance Company, Ltd., , 100%
+    - ACE INA Financial Institution Solutions, Inc., USA (Delaware), 100%
+    - American Lenders Facilities, Inc., USA  (California), 100%
+    - ESIS, Inc., USA (Pennsylvania), 100%
+    - ESIS Canada Inc. , Canada (Ontario), 100%
+    - ACE Environmental Health and Safety Consulting,                                                                 (Shanghai) Company Limited, China, 100%
+    - ESIS Asia Pacific PTE. Ltd., , 100%
+    - ESIS Academy PTE. Ltd., , 100%
+    - Proclaim America, Inc., USA (Texas), 51%
+    - NewMarkets Insurance Agency, Inc., USA (Delaware), 100%
+    - ACE INA Excess and Surplus Insurance Services, ,                                                          Inc., USA (Pennsylvania), 100%
+    - ACE INA Excess and Surplus Insurance Services,           ,                                                          Inc., USA (California), 100%
+    - ACE Financial Solutions, Inc. , USA (Delaware), 100%
+    - ACE Risk Solutions, Inc., USA, (New York), 100%
+    - Indemnity Insurance Company of North America,                                                          (EI# 06-1016108, NAIC #43575, PA), USA (Pennsylvania), 100%
+    - ACE American Insurance Company,                                                          (EI# 95-2371728, NAIC# 22667, PA), USA (Pennsylvania), 100%
+    - Penn Millers Holding Corporation, USA, (Pennsylvania), 100%
+    - PMMHC Corp., USA, (Pennsylvania), 100%
+    - Penn Millers Insurance Company, (EI# 24-0686200, NAIC #14982, PA), USA, (Pennsylvania), 100%
+    - Penn Millers Agency, Inc., USA, (Pennsylvania), 100%
+    - Pacific Employers Insurance Company,                                                                   (EI# 95-1077060, NAIC# 22748, PA), USA (Pennsylvania), 100%
+    - Illinois Union Insurance Company,                                                                               (EI# 36-2759195, NAIC #27960, IL), USA (Illinois), 100%
+    - Rain and Hail Insurance Service Incorporated     , USA (Iowa), 100%
+    - Agri General Insurance Company,                                                                               (EI# 42-1204578, NAIC #42757, IA), USA (Iowa), 100%
+    - Rain and Hail L.L.C.         , USA (Iowa), 100%
+    - Agri General Insurance Service, Inc., USA (Iowa), 100%
+    - Rain and Hail Insurance Service International, Inc., USA (Iowa), 100%
+    - Rain and Hail Holding Corporation, , 100%
+    - Rain and Hail Insurance Service, Ltd., , 100%
+    - Rain and Hail do Brasil, Ltda., Brazil, 100%
+    - Rain and Hail Insurance Service de      ,                                                                                          Mexico, S.A. de C.V., Mexico, 100%
+    - Rain and Hail Financial, Inc., USA (Iowa), 100%
+    - INAMAR Insurance Underwriting Agency, Inc.                          , USA (New Jersey), 100%
+    - INAMAR Insurance Underwriting Agency, Inc. of Texas, USA (Texas), 100%
+    - Insurance Company of North America,                                                          (EI# 23-0723970, NAIC #22713, PA), USA (Pennsylvania), 100%
+    - Bankers Standard Insurance Company,                                                          (EI# 59-1320184, NAIC #18279, PA), USA (Pennsylvania), 100%
+    - Bankers Standard Fire and Marine Company,                                                                   (EI# 75-6014863, NAIC #20591, PA), USA (Pennsylvania), 100%
+    - ACE Property and Casualty Insurance Company                                                                                                         (EI# 06-0237820, NAIC, #20699, PA)                                                                                                                                                                                                                                                           , USA (Pennsylvania), 100%
+    - ACE Fire Underwriters Insurance Company,                                                                   (EI# 06-6032187, NAIC #20702, PA), USA (Pennsylvania), 100%
+    - Atlantic Employers Insurance Company,                                                                   (EI# 23-2173820, NAIC #38938, NJ), USA, (New Jersey), 100%
+    - ACE Insurance Company of the Midwest,                                                                   (EI# 06-0884361, NAIC #26417, IN), USA (Indiana), 100%
+    - ACE Tempest Re USA, LLC, USA (Connecticut), 100%
+    - ACE Structured Products, Inc., USA (Delaware), 100%
+    - Recovery Services International, Inc., USA (Delaware), 100%
+    - ACE INA International Holdings, Ltd., USA (Delaware), 100%
+    - ACE Arabia Cooperative Insurance Company , , 30%
+    - ACE Servicios, S.A. , , 100%
+    - ACE Life Insurance Company Ltd. , , 100%
+    - ACE Jerneh Insurance Berhad, , 100%
+    - FM HoldCo LLC, USA (Delaware), 100%
+    - ACE Fianzas Monterrey, S.A., Mexico, 99.95%              .05%          (AFIA Finance Corporation)
+    - Operadora FMA, S.A. de C.V., , 99.99%              .01%          (AFIA Finance Corporation)
+    - INACOMB S.A. de C.V., , 99.998%, 0.002%              (AFIA Finance Corporation)
+    - ACE  Holdings Pty Limited, , 100%
+    - ACE Insurance Limited, , 100%
+    - PT. ACE Life Assurance, Indonesia, 98.21%
+    - ACE Life Insurance Company Limited , , 100%
+    - ACE Life Fund Management Company Limited, , 100%
+    - ACE Insurance Company Limited, , 100%
+    - ACE Seguradora S.A., , 99.99%, .01%  (AFIA Finance Corporation)
+    - ACE Participa&#231;&#245;es Ltda. , Brazil, 99%, 1% (AFIA Finance Corporation)
+    - ACE Resseguradora S.A., , 99.9908%, .0092% (ACE INA International Holdings, Ltd.)
+    - Servicios ACEINA, S.A. de C.V., Mexico, 99.9%, .1%            (AFIA Finance Corporation)
+    - ACE Seguros S.A.  , , 96.063%, 3.915%      (AFIA Finance Corporation)
+    - ACE INA International Holdings Ltd. Agencia Chile, Chile, 100%
+    - ACE Seguros de Vida S.A., Chile, 95%, 5%             (AFIA Finance Corporation Agencia en Chile)
+    - Ventas Personales Limitada, Chile, 99%, 1% (AFIA Finance Corporation Agencia en Chile)
+    - ACE Seguros S.A. , Chile, 85.83%, 8.00%       (AFIA Finance Corporation, Agencia en Chile), 5.95%        (AFIA Finance Corp. Chile  Limitada)
+    - ACE Servicios Regionales Limitada, Chile, 99%               1%            (AFIA Finance Corporation Agencia en Chile)
+    - PT ACE Jaya Proteksi, , 83%             17%              (PT Adi Citra Mandiri)
+    - PT Jaya Proteksi Takaful, , 51%
+    - PT Jaya Prima Auto Center, , 75%
+    - ACE INA Overseas Holdings, Inc. , USA (Delaware), 100%
+    - ACE European Holdings Limited , England &amp; Wales, 100%
+    - ACE European Group Limited, England &amp; Wales, 30.8723% , 69.1277% (ACE Insurance S.A.- N.V.)
+    - ACE Insurance Management (DIFC) Limited, Dubai International Financial Centre, 100%
+    - ACE European Holdings No 2 Limited, England &amp; Wales, 100%
+    - ACE Insurance S.A.-N.V., , 99.94923% , 0.05076%            (ACE INA International Holdings, Ltd.)
+    - ACE European Group Limited, England &amp; Wales, 69.1277%, 30.8723%              (ACE European Holdings Ltd.)
+    - ACE Pension Trustee Limited       , England &amp; Wales, 100%
+    - ACE Russia Investments Limited, England &amp; Wales, 100%
+    - LLC ACE Life Insurance,  , 100%
+    - CJSC ACE Insurance Company,  , 100%
+    - ACE Seguradora S.A., , 99.9897%
+    - ACE Holdings Limited , , 100%
+    - ACE Insurance Company  S.A.E.                                                                                                                                        , , 98.014%, 0.551%           (ACE INA Services UK Ltd), 0.551%           (ACE European Holdings Ltd)
+    - ACE Life Insurance Company S.A.E., , 98.35%, 0.98%        (ACE Holdings Limited), 0.67%          (AFIA Finance Corporation)
+    - ACE INA Berhad, , 100%
+    - ACE Seguros S.A., , 99.958%
+    - ACE Seguros S.A., , 99.98%               .02%                  (AFIA Finance Corporation)
+    - ACE Seguros S.A., , 99.99%.             .01%         (AFIA Finance Corporation)
+    - ACE Seguros S.A., , 100%
+    - ACE Seguros S.A.,                                                (formerly Altas Cumbres Compa&#241;&#237;a de Seguros de Vida ), , 99.99%, 0.01%             (AFIA Finance Corporation)
+    - Eksupsiri Company Limited, , 49%, 50.99%        Nam Ek)
+    - ACE Life Assurance Public Co. Ltd., , 75.01%, 24.99%      (Oriental Equity Holdings)
+    - Nam Ek Company Limited, , 49%
+    - Eksupsiri Company Limited, , 50.99%, 49% (AIIH)
+    - Siam Marketing &amp; Analytics Company Limited, , 50.99%, 49% (ACE Asia Pacific Services Pte. Limited)
+    - Siam Liberty Insurance Broker Co., Ltd., , 74.8%         (Nam Ek), 24.99%      (AFIA Finance Corporation)
+    - ACE Insurance Limited, , 100%
+    - ACE Insurance Limited, , 100%
+    - ACE International Management Corporation , , 100%
+    - Cover Direct, Inc., USA (Delaware), 100%
+    - PT Adi Citra Mandiri, , 100%
+    - PT ACE Jaya Proteksi, , 17%
+    - ACE  INA G.B. Holdings, Ltd, USA (Delaware), 100%
+    - ACE INA Services U.K. Limited, , 100%
+    - Century Inversiones, S.A., , 100%
+    - ACE Arabia Insurance Company Limited B.S.C. (C), , 50%
+    - ACE Insurance Limited, , 100%
+    - ACE INA Overseas Insurance Company Ltd., , 100%
+    - ACE Canada Holdings, Inc., USA (Delaware), 100%
+    - INACAN Holdings Ltd., Canada (Ontario), 100%
+    - ACE INA Insurance, , 100%
+    - ACE INA Life Insurance, , 100%
+    - ACE Tempest Re Canada Inc. , Canada (Quebec), 100%
+    - ACE Insurance Limited , , 100%
+    - ACE Insurance , , 100%
+    - ACE Chintai  SSI , , 100%
+    - ACE Songai Service Kabushikigaisha, , 100%
+    - ACE Marketing Group, C.A., Venezuela, 100%
+    - ACE Insurance Company ,                                                 (EI# 66-0437305, NAIC #30953, PR), Puerto Rico, 100%
+    - ACE Insurance Agency, Inc., , 100%
+    - ACE Insurance Limited , , 99.99%              .01%           (ACE INA Overseas Ins. Co. Ltd)
+    - ACE Alternative Risk Ltd.,                                                (formerly ACE Risk Management International Ltd.), , 100%
+    - DELPANAMA S.A., , 100%
+    - INAMEX S.A.                                             , , 100%
+    - Oriental Equity Holdings Limited, , 100%
+    - AFIA Finance Corporation, USA (Delaware), 100%
+    - AFIA Finance  Corporation Agencia en Chile , Chile, 100%
+    - AFIA Venezolana C.A., , 100%
+    - ACE Servicios S.A., , 95%                5% (ACE INA Int'l Holdings)
+    - AFIA Finance Corp. Chile Limitada, Chile, 98%, 2% (ACE INA Int'l Holdings)
+    - Pembroke Reinsurance, Inc., USA (Delaware), 100%
+    - RIYAD Insurance Co. Ltd., , 80%
+    - ACE Asia Pacific Services Pte. Ltd., (formerly Safire Private Limited), , 100%
+    - ACE Asia Pacific Services Sdn Bhd, , 100%
+    - AFIA (INA) Corporation, Limited, USA (Delaware), 100%
+    - AFIA, Unincorporated, Association, 60%, 40%            AFIA (ACE)
+    - AFIA (ACE) Corporation, Limited, USA (Delaware), 100%
+    - INAVEN, C.A. &#8220;Venezuela&#8221;, Venezuela, 100%
+    - Ally Insurance Holdings LLC, USA (Delaware), 100%
+    - ABA Seguros, S.A. de C.V., , 99.89598%
+    - ABA Servicios Corporativos, S.A. de C.V., , 99.998%             .002%                   (ABA Garantias S.A. de C.V.)
+    - ABA Mexico Holdings LLC, USA (Delaware), 100%
+    - ABA Garantias S.A. de C.V., , 99.99%              .01%            (AFIA Finance Corporation)
+    - ACE US Holdings, Inc., USA (Delaware), 100%
+    - ASI Administrative Services Inc. ,  (Yukon), 100%
+    - Rhea International Marketing (L), Inc., , 60%
+    - Westchester Fire Insurance Company,                           (EI# 92-0040526, NAIC# 10030, PA)  ,                           (F/K/A ACE Indemnity Insurance Company), USA, (Pennsylvania), 100%
+    - Westchester Surplus Lines Insurance Company,                           (EI# 58-2139927, NAIC #10172, GA), USA (Georgia), 100%
+    - Westchester Specialty Services, Inc., USA (Florida), 100%
+    - Westchester Specialty Insurance Services, Inc., USA (Nevada), 100%
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 880984, date_filed: "2014-03-17", file_name: "edgar/data/880984/0000880984-14-000004.txt", form_type: "10-K", id: 2557} [%{name: "Subsidiary, Jurisdiction"}, %{location: "Israel", name: "DSIT Solutions Ltd."}, %{location: "Israel", name: "DSIT Sonar and Acoustics Ltd."}, %{location: "New South Wales Australia", name: "GridSense Pty. Ltd., New South Wales, Australia"}, %{location: "New South Wales Australia", name: "CHK GridSense Pty. Ltd., New South Wales, Australia"}, %{location: "Colorado", name: "GridSense Inc."}, %{location: "Delaware", name: "US Seismic Systems, Inc."}, %{location: "Georgia", name: "OMX Holdings, Inc."}, %{location: "Georgia", name: "OmniMetrix, LLC"}]
+    - Subsidiary, Jurisdiction
+    - DSIT Solutions Ltd.
+    - DSIT Sonar and Acoustics Ltd.
+    - GridSense Pty. Ltd., New South Wales, Australia
+    - CHK GridSense Pty. Ltd., New South Wales, Australia
+    - GridSense Inc.
+    - US Seismic Systems, Inc.
+    - OMX Holdings, Inc.
+    - OmniMetrix, LLC
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1008848, date_filed: "2014-03-03", file_name: "edgar/data/1008848/0001008848-14-000011.txt", form_type: "10-K", id: 2556} []
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 715579, date_filed: "2014-03-07", file_name: "edgar/data/715579/0001047469-14-001965.txt", form_type: "10-K", id: 2555} [%{name: "The Registrant has the following subsidiaries: ACNB Bank, a Pennsylvania state-chartered commercial bank and trust company; RussellInsurance Group,Inc., incorporated in the State of Maryland; and, BankersRe Insurance Group, SPC, organized in the Cayman Islands. "}, %{name: "QuickLinks"}]
+    - The Registrant has the following subsidiaries: ACNB Bank, a Pennsylvania state-chartered commercial bank and trust company; RussellInsurance Group,Inc., incorporated in the State of Maryland; and, BankersRe Insurance Group, SPC, organized in the Cayman Islands. 
+    - QuickLinks
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1044435, date_filed: "2014-03-04", file_name: "edgar/data/1044435/0001140361-14-010848.txt", form_type: "10-K", id: 2559} [%{name: "Name of Subsidiary, Country of Incorporation"}, %{location: "Switzerland Switzerland", name: "Active Power (Switzerland) AG, Switzerland"}, %{location: "United Kingdom", name: "Active Power Solutions Limited"}, %{location: "Germany Germany", name: "Active Power (Germany) GmbH, Germany"}, %{location: "Hong Kong Hong Kong", name: "Active Power (Hong Kong) Limited, Hong Kong"}, %{location: "Beijing China", name: "Active Power (Beijing) Co. Limited, China"}]
+    - Name of Subsidiary, Country of Incorporation
+    - Active Power (Switzerland) AG, Switzerland
+    - Active Power Solutions Limited
+    - Active Power (Germany) GmbH, Germany
+    - Active Power (Hong Kong) Limited, Hong Kong
+    - Active Power (Beijing) Co. Limited, China
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 2098, date_filed: "2014-03-06", file_name: "edgar/data/2098/0001026608-14-000011.txt", form_type: "10-K", id: 2554} [%{name: "Name, Country of Incorporation"}, %{location: "Canada", name: "Acme United Limited"}, %{location: "Germany", name: "Acme United Europe GmbH"}, %{location: "Asia Pacific", name: "Acme United  Limited, HongKong"}, %{location: "China", name: "Acme United  Limited"}, %{location: "Netherlands", name: "Acme United  Cooperatie U.A."}]
+    - Name, Country of Incorporation
+    - Acme United Limited
+    - Acme United Europe GmbH
+    - Acme United  Limited, HongKong
+    - Acme United  Limited
+    - Acme United  Cooperatie U.A.
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 935036, date_filed: "2014-02-28", file_name: "edgar/data/935036/0001193125-14-076222.txt", form_type: "10-K", id: 2553} [%{location: "Australia", name: "ACI  Pty. Ltd"}, %{location: "Pacific Australia", name: "ACI Worldwide (Pacific) Pty. Ltd., Australia"}, %{location: "Australia", name: "Distra Pty. Ltd"}, %{location: "Canada Canada", name: "ACI Worldwide (Canada), Inc., Canada"}, %{location: "Colombia", name: "ACI Worldwide  S.A.S."}, %{location: "Delaware", name: "Online Resources Corporation"}, %{location: "Delaware", name: "Official Payments Holdings, Inc."}, %{location: "Delaware", name: "Official Payments Corporation"}, %{location: "Germany", name: "ACI Worldwide (eps) AG"}, %{location: "India", name: "ACI Worldwide Solutions Private Limited"}, %{location: "Ireland", name: "Applied Communications GPC Limited"}, %{location: "Ireland Ireland", name: "Applied Communications (Ireland) Limited, Ireland"}, %{location: "Italy", name: "ACI Worldwide (Italia) S.R.L."}, %{location: "Nebraska", name: "ACI Worldwide Corp."}, %{location: "Netherlands", name: "ACI Worldwide B.V."}, %{location: "Asia Singapore", name: "ACI Worldwide (Asia) Pte. Ltd., Singapore"}, %{location: "South Africa South Africa", name: "ACI Worldwide (South Africa) (Pty.) Ltd., South Africa"}, %{location: "South Africa", name: "ACI Worldwide Cornastone (Proprietary) Ltd."}, %{location: "South Carolina", name: "PM Systems Corporation"}, %{location: "United Kingdom", name: "ACI Global Limited"}, %{name: "Applied Communications Inc. U.K. Holding Limited, United Kingdom"}, %{location: "United Kingdom", name: "ACI Worldwide (EMEA) Limited"}, %{location: "United Kingdom", name: "S1 International IP Holding Limited"}]
+    - ACI  Pty. Ltd
+    - ACI Worldwide (Pacific) Pty. Ltd., Australia
+    - Distra Pty. Ltd
+    - ACI Worldwide (Canada), Inc., Canada
+    - ACI Worldwide  S.A.S.
+    - Online Resources Corporation
+    - Official Payments Holdings, Inc.
+    - Official Payments Corporation
+    - ACI Worldwide (eps) AG
+    - ACI Worldwide Solutions Private Limited
+    - Applied Communications GPC Limited
+    - Applied Communications (Ireland) Limited, Ireland
+    - ACI Worldwide (Italia) S.R.L.
+    - ACI Worldwide Corp.
+    - ACI Worldwide B.V.
+    - ACI Worldwide (Asia) Pte. Ltd., Singapore
+    - ACI Worldwide (South Africa) (Pty.) Ltd., South Africa
+    - ACI Worldwide Cornastone (Proprietary) Ltd.
+    - PM Systems Corporation
+    - ACI Global Limited
+    - Applied Communications Inc. U.K. Holding Limited, United Kingdom
+    - ACI Worldwide (EMEA) Limited
+    - S1 International IP Holding Limited
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1062478, date_filed: "2014-03-07", file_name: "edgar/data/1062478/0001193125-14-088985.txt", form_type: "10-K", id: 2561} [%{name: "Subsidiary Name, Jurisdiction of Incorporation"}, %{location: "Australia", name: "Actuate  Pty. Ltd"}, %{location: "Cayman Islands", name: "Actuate Cayman Limited"}, %{location: "Singapore", name: "Actuate Pte. Limited"}, %{location: "Germany", name: "Actuate (Deutschland) GmbH"}, %{location: "Switzerland", name: "Actuate International Sarl"}, %{location: "Delaware United States of America", name: "Actuate International Corporation, State of Delaware, United States of America"}, %{location: "Delaware United States of America", name: "Actuate International Holding Company, State of Delaware, United States of America"}, %{location: "Japan", name: "Actuate  Co., Ltd."}, %{location: "Hong Kong", name: "Actuate Limited"}, %{location: "Shanghai China", name: "Actuate Software (Shanghai) Co. Ltd., Peoples Republic of China"}, %{location: "United Kingdom", name: "Actuate UK Ltd."}, %{location: "Canada", name: "Actuate  Corporation"}, %{location: "United States of America", name: "Tidestone Technologies, Inc., State of Kansas"}, %{location: "Spain Spain", name: "Actuate Spain S.L., Spain"}]
+    - Subsidiary Name, Jurisdiction of Incorporation
+    - Actuate  Pty. Ltd
+    - Actuate Cayman Limited
+    - Actuate Pte. Limited
+    - Actuate (Deutschland) GmbH
+    - Actuate International Sarl
+    - Actuate International Corporation, State of Delaware, United States of America
+    - Actuate International Holding Company, State of Delaware, United States of America
+    - Actuate  Co., Ltd.
+    - Actuate Limited
+    - Actuate Software (Shanghai) Co. Ltd., Peoples Republic of China
+    - Actuate UK Ltd.
+    - Actuate  Corporation
+    - Tidestone Technologies, Inc., State of Kansas
+    - Actuate Spain S.L., Spain
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 2178, date_filed: "2014-03-13", file_name: "edgar/data/2178/0000002178-14-000010.txt", form_type: "10-K", id: 2564} [%{name: "Subsidiary, Place of Incorporation"}, %{name: " ,  "}, %{location: "Delaware", name: "Adams Resources Exploration Corporation"}, %{location: "Texas", name: "Kirbyville Marketing Co., Inc."}, %{location: "Texas", name: "Service Transport Company"}, %{location: "Texas", name: "Bayou City Pipelines, Inc."}, %{location: "Texas", name: "Ada Crude Oil Company"}, %{location: "Texas", name: "Ada Mining Corporation"}, %{location: "Delaware", name: "Classic Coal Corporation"}, %{location: "Kentucky", name: "Plastics Universal Corporation"}, %{location: "Kentucky", name: "CJC Leasing, Inc."}, %{location: "Kentucky", name: "Buckley Mining Corporation"}, %{location: "Texas", name: "Gulfmark Energy, Inc."}, %{location: "Texas", name: "Ada Resources, Inc."}, %{location: "Texas", name: "Adams Resources Marketing, Ltd."}, %{location: "Texas", name: "Adams Resources Marketing GP, Inc."}, %{location: "Nevada", name: "Adams Resources Marketing II, Inc."}, %{location: "Nevada", name: "Gulfmark Energy Marketing, Inc."}]
+    - Subsidiary, Place of Incorporation
+    -  ,  
+    - Adams Resources Exploration Corporation
+    - Kirbyville Marketing Co., Inc.
+    - Service Transport Company
+    - Bayou City Pipelines, Inc.
+    - Ada Crude Oil Company
+    - Ada Mining Corporation
+    - Classic Coal Corporation
+    - Plastics Universal Corporation
+    - CJC Leasing, Inc.
+    - Buckley Mining Corporation
+    - Gulfmark Energy, Inc.
+    - Ada Resources, Inc.
+    - Adams Resources Marketing, Ltd.
+    - Adams Resources Marketing GP, Inc.
+    - Adams Resources Marketing II, Inc.
+    - Gulfmark Energy Marketing, Inc.
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1004724, date_filed: "2014-03-31", file_name: "edgar/data/1004724/0001004724-14-000038.txt", form_type: "10-K", id: 2566} [%{name: "Entity, Jurisdiction of Organization"}, %{location: "Georgia", name: "1155 Hembree II, LLC"}, %{location: "Georgia", name: "2014 HUD Master Tenant, LLC"}, %{location: "Georgia", name: "ADK Administrative Property, LLC"}, %{location: "Georgia", name: "ADK Bonterra/Parkview, LLC"}, %{location: "Georgia", name: "ADK , LLC"}, %{location: "Georgia", name: "ADK Hembree Road Property, LLC"}, %{location: "Georgia", name: "ADK LaGrange Operator, LLC"}, %{location: "Georgia", name: "ADK Lumber City Operator, LLC"}, %{location: "Georgia", name: "ADK Oceanside Operator, LLC"}, %{location: "Georgia", name: "ADK Powder Springs Operator, LLC"}, %{location: "Georgia", name: "ADK Savannah Beach Operator, LLC"}, %{location: "Thomasville Georgia", name: "ADK Thomasville Operator, LLC, Georgia"}, %{location: "Georgia", name: "ADK Thunderbolt Operator, LLC"}, %{location: "Georgia", name: "APH&amp;R Nursing, LLC"}, %{location: "Georgia", name: "APH&amp;R Property Holdings, LLC"}, %{location: "Georgia", name: "AdCare Administrative Services, LLC"}, %{location: "Georgia", name: "AdCare Consulting, LLC"}, %{location: "Georgia", name: "AdCare Employee Leasing, LLC"}, %{location: "Georgia", name: "AdCare Financial Management, LLC"}, %{location: "Georgia", name: "AdCare Health Systems, Inc."}, %{location: "Georgia", name: "AdCare Oklahoma Management, LLC"}, %{location: "Georgia", name: "AdCare Operations, LLC"}, %{location: "Ohio", name: "AdCare Property Holdings, LLC"}, %{location: "Attalla Georgia", name: "Attalla Nursing ADK, LLC, Georgia"}, %{location: "Georgia", name: "Attalla Property Holdings, LLC"}, %{location: "Georgia", name: "Benton Nursing, LLC"}, %{location: "Georgia", name: "Benton Property Holdings, LLC"}, %{location: "Georgia", name: "CP Nursing, LLC"}, %{location: "Georgia", name: "CP Property Holdings, LLC"}, %{location: "Georgia", name: "CSCC Nursing, LLC"}, %{location: "Georgia", name: "CSCC Property Holdings, LLC"}, %{location: "Georgia", name: "Coosa Nursing ADK, LLC"}, %{location: "Georgia", name: "ER Nursing, LLC"}, %{location: "Georgia", name: "Eaglewood Property Holdings, LLC"}, %{location: "Eaglewood Village Georgia", name: "Eaglewood Village, LLC, Georgia"}, %{location: "Georgia", name: "Erin Nursing, LLC"}, %{location: "Georgia", name: "Erin Property Holdings, LLC"}, %{location: "Georgetown Georgia", name: "Georgetown HC&amp;R Nursing, LLC, Georgia"}, %{location: "Georgia", name: "Georgetown HC&amp;R Property Holdings, LLC"}, %{location: "Georgia", name: "Glenvue H&amp;R Nursing, LLC"}, %{location: "Georgia", name: "Glenvue H&amp;R Property Holdings, LLC"}, %{location: "Ohio", name: "Hearth &amp; Care of Greenfield, LLC"}, %{location: "Ohio", name: "Hearth &amp; Home of , Inc."}, %{location: "Ohio", name: "Hearth &amp; Home of Vandalia, Inc."}, %{location: "Georgia", name: "Home Office Property Holdings, LLC"}, %{location: "Georgia", name: "Homestead Nursing, LLC"}, %{location: "Georgia", name: "Homestead Property Holdings, LLC"}, %{location: "Georgia", ...}, %{...}, ...]
+    - Entity, Jurisdiction of Organization
+    - 1155 Hembree II, LLC
+    - 2014 HUD Master Tenant, LLC
+    - ADK Administrative Property, LLC
+    - ADK Bonterra/Parkview, LLC
+    - ADK , LLC
+    - ADK Hembree Road Property, LLC
+    - ADK LaGrange Operator, LLC
+    - ADK Lumber City Operator, LLC
+    - ADK Oceanside Operator, LLC
+    - ADK Powder Springs Operator, LLC
+    - ADK Savannah Beach Operator, LLC
+    - ADK Thomasville Operator, LLC, Georgia
+    - ADK Thunderbolt Operator, LLC
+    - APH&amp;R Nursing, LLC
+    - APH&amp;R Property Holdings, LLC
+    - AdCare Administrative Services, LLC
+    - AdCare Consulting, LLC
+    - AdCare Employee Leasing, LLC
+    - AdCare Financial Management, LLC
+    - AdCare Health Systems, Inc.
+    - AdCare Oklahoma Management, LLC
+    - AdCare Operations, LLC
+    - AdCare Property Holdings, LLC
+    - Attalla Nursing ADK, LLC, Georgia
+    - Attalla Property Holdings, LLC
+    - Benton Nursing, LLC
+    - Benton Property Holdings, LLC
+    - CP Nursing, LLC
+    - CP Property Holdings, LLC
+    - CSCC Nursing, LLC
+    - CSCC Property Holdings, LLC
+    - Coosa Nursing ADK, LLC
+    - ER Nursing, LLC
+    - Eaglewood Property Holdings, LLC
+    - Eaglewood Village, LLC, Georgia
+    - Erin Nursing, LLC
+    - Erin Property Holdings, LLC
+    - Georgetown HC&amp;R Nursing, LLC, Georgia
+    - Georgetown HC&amp;R Property Holdings, LLC
+    - Glenvue H&amp;R Nursing, LLC
+    - Glenvue H&amp;R Property Holdings, LLC
+    - Hearth &amp; Care of Greenfield, LLC
+    - Hearth &amp; Home of , Inc.
+    - Hearth &amp; Home of Vandalia, Inc.
+    - Home Office Property Holdings, LLC
+    - Homestead Nursing, LLC
+    - Homestead Property Holdings, LLC
+    - Little Rock HC&amp;R Nursing, LLC
+    - Little Rock HC&amp;R Property Holdings, LLC
+    - Mountain Top ALF, LLC
+    - Mountain Top Property Holdings, LLC
+    - Mountain Trace Nursing ADK, LLC
+    - Mountain View Nursing, LLC
+    - Mt. Kenn Nursing, LLC
+    - Mt. Kenn Property Holdings, LLC
+    - Mt. V Property Holdings, LLC
+    - NW 61st Nursing, LLC
+    - New Lincoln Ltd.
+    - Northridge HC&amp;R Nursing, LLC
+    - Northridge HC&amp;R Property Holdings, LLC
+    - Northwest Property Holdings, LLC
+    - Park Heritage Nursing, LLC
+    - Park Heritage Property Holdings, LLC
+    - QC Nursing, LLC
+    - QC Property Holdings, LLC
+    - Rose Missouri Nursing, LLC
+    - Sumter N&amp;R, LLC
+    - Sumter Valley Property Holdings, LLC
+    - The Pavilion Care Center, LLC
+    - Valley River Nursing, LLC, Georgia
+    - Valley River Property Holdings, LLC
+    - Woodland Hills HC Nursing, LLC, Georgia
+    - Woodland Hills HC Property Holdings, LLC
+    - Woodland Manor Nursing, LLC
+    - Woodland Manor Property Holdings, LLC
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 796343, date_filed: "2014-01-21", file_name: "edgar/data/796343/0000796343-14-000004.txt", form_type: "10-K", id: 2569} [%{name: "(), As of December 6, 2013"}, %{name: "Subsidiary Legal Name, Jurisdiction of Incorporation/Formation"}, %{name: "The Americas:"}, %{location: "Colombia Colombia", name: "Adobe Colombia SAS, Colombia"}, %{location: "Delaware", name: "Adobe Offermatica LLC"}, %{location: "Brazil", name: "Adobe Systems Brasil Limitada"}, %{location: "Canada", name: "Adobe Systems  Inc."}, %{location: "Delaware", name: "Adobe Systems Federal LLC"}, %{location: "Chile Limitada Chile", name: "Adobe Systems Software Chile Limitada, Chile"}, %{location: "Delaware", name: "Adobe Visual Sciences LLC"}, %{name: "Auditude, Inc.  , Delaware"}, %{name: "Behance, Inc.  , Delaware"}, %{location: "Delaware", name: "Context Optional, Inc. "}, %{location: "Delaware", name: "Efficient Frontier, Inc. "}, %{name: "Neolane, Inc.  , Delaware"}, %{location: "Delaware", name: "Omniture LLC"}, %{location: "Delaware", name: "Visual Sciences Technologies, LLC"}, %{location: "Europe", name: ":"}, %{location: "Schweiz Switzerland", name: "Adobe Research (Schweiz) AG, Switzerland"}, %{location: "Ireland", name: "Adobe Software Trading Company Limited"}, %{location: "Schweiz Switzerland", name: "Adobe Systems (Schweiz) GmbH, Switzerland"}, %{location: "Belgium", name: "Adobe Systems  BVBA"}, %{location: "The Netherlands", name: "Adobe Systems Benelux BV"}, %{location: "Denmark", name: "Adobe Systems Danmark ApS"}, %{location: "Germany", name: "Adobe Systems Engineering GmbH, Federal Republic of"}, %{location: "Europe United Kingdom", name: "Adobe Systems Europe Limited, United Kingdom"}, %{location: "France France", name: "Adobe Systems France SAS, France"}, %{location: "Germany", name: "Adobe Systems GmbH, Federal Republic of"}, %{location: "Spain", name: "Adobe Systems Iberica SL"}, %{location: "Turkey", name: "Adobe Systems Istanbul Yazilim Ticaret Limited Sirketi"}, %{location: "Italy", name: "Adobe Systems Italia SRL"}, %{location: "Sweden", name: "Adobe Systems Nordic AB"}, %{location: "Norway", name: "Adobe Systems Norge AS"}, %{location: "Romania Romania", name: "Adobe Systems Romania SRL, Romania"}, %{location: "Czech Republic", name: "Adobe Systems s.r.o."}, %{location: "Ireland", name: "Adobe Systems Software  Limited"}, %{location: "Switzerland", name: "Day Software Holding AG "}, %{location: "United Kingdom", name: "Efficient Frontier Europe Limited  "}, %{location: "Switzerland", name: "Herkules Acquisition Holding AG "}, %{location: "Moldova", name: "ICS &#8220;Adobe Systems&#8221; S.R.L, Republic of"}, %{location: "Russia", name: "Limited Liability Company Adobe Systems"}, %{location: "Ukraine Ukraine", name: "Limited Liability Company &#8220;Adobe Systems Ukraine&#8221;, Ukraine"}, %{location: "Germany", name: "Neolane GmbH "}, %{name: "Subsidiary Legal Name, Jurisdiction of Incorporation/Formation"}, %{location: "United Kingdom", name: "Neolane Limited "}, %{location: "France", name: "Neolane SA "}, %{location: "Denmark", name: "YaWah ApS"}, %{location: "Africa", name: ":"}, %{location: "South Africa", ...}, %{...}, ...]
+    - (), As of December 6, 2013
+    - Subsidiary Legal Name, Jurisdiction of Incorporation/Formation
+    - The Americas:
+    - Adobe Colombia SAS, Colombia
+    - Adobe Offermatica LLC
+    - Adobe Systems Brasil Limitada
+    - Adobe Systems  Inc.
+    - Adobe Systems Federal LLC
+    - Adobe Systems Software Chile Limitada, Chile
+    - Adobe Visual Sciences LLC
+    - Auditude, Inc.  , Delaware
+    - Behance, Inc.  , Delaware
+    - Context Optional, Inc. 
+    - Efficient Frontier, Inc. 
+    - Neolane, Inc.  , Delaware
+    - Omniture LLC
+    - Visual Sciences Technologies, LLC
+    - :
+    - Adobe Research (Schweiz) AG, Switzerland
+    - Adobe Software Trading Company Limited
+    - Adobe Systems (Schweiz) GmbH, Switzerland
+    - Adobe Systems  BVBA
+    - Adobe Systems Benelux BV
+    - Adobe Systems Danmark ApS
+    - Adobe Systems Engineering GmbH, Federal Republic of
+    - Adobe Systems Europe Limited, United Kingdom
+    - Adobe Systems France SAS, France
+    - Adobe Systems GmbH, Federal Republic of
+    - Adobe Systems Iberica SL
+    - Adobe Systems Istanbul Yazilim Ticaret Limited Sirketi
+    - Adobe Systems Italia SRL
+    - Adobe Systems Nordic AB
+    - Adobe Systems Norge AS
+    - Adobe Systems Romania SRL, Romania
+    - Adobe Systems s.r.o.
+    - Adobe Systems Software  Limited
+    - Day Software Holding AG 
+    - Efficient Frontier Europe Limited  
+    - Herkules Acquisition Holding AG 
+    - ICS &#8220;Adobe Systems&#8221; S.R.L, Republic of
+    - Limited Liability Company Adobe Systems
+    - Limited Liability Company &#8220;Adobe Systems Ukraine&#8221;, Ukraine
+    - Neolane GmbH 
+    - Subsidiary Legal Name, Jurisdiction of Incorporation/Formation
+    - Neolane Limited 
+    - Neolane SA 
+    - YaWah ApS
+    - :
+    - Adobe Systems  Proprietary Limited
+    - :
+    - Adobe Systems Co. Ltd. 
+    - Adobe Systems  Limited
+    - Adobe Systems  Private Limited
+    - Adobe Systems  Ltd.
+    - Adobe Systems New Zealand Limited, New Zealand
+    - Adobe Systems Pte. Ltd.  , Singapore
+    - Adobe Systems Pty. Ltd. 
+    - Adobe Systems Software (Beijing) Co. Ltd., China
+    - Business Catalyst Systems Pty Ltd. 
+    - Efficient Frontier Holdings Pty Limited 
+    - Efficient Frontier  Limited  
+    - Efficient Frontier Technology  Private Limited 
+    - Neolane Pte. Ltd. 
+    - Neolane Pty Limited  
+    - :
+    - Adobe Middle East FZ-LLC
+    - Adobe Systems  Ltd. 
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1585790, date_filed: "2014-03-21", file_name: "edgar/data/1585790/0001193125-14-110280.txt", form_type: "10-K", id: 2570} [%{name: "No., Name of Subsidiary"}, %{name: "1., Advanced Disposal Services South, Inc."}, %{name: "2., Advanced Disposal Recycling Services Atlanta, LLC"}, %{name: "3., Advanced Disposal Recycling Services, LLC"}, %{name: "4., Advanced Disposal Recycling Services Gulf Coast, LLC"}, %{name: "5., Advanced Disposal Services Alabama CATS, LLC"}, %{name: "6., Advanced Disposal Services Alabama EATS, LLC"}, %{name: "7., Advanced Disposal Services Alabama Holdings, LLC"}, %{location: "Alabama", name: "8., Advanced Disposal Services , LLC"}, %{name: "9., Advanced Disposal Services Atlanta, LLC"}, %{name: "10., Advanced Disposal Services Augusta, LLC"}, %{name: "11., Advanced Disposal Services Biloxi MRF, LLC"}, %{name: "12., Advanced Disposal Services Biloxi Transfer Station, LLC"}, %{name: "13., Advanced Disposal Services Birmingham, Inc."}, %{name: "14., Advanced Disposal Services Carolinas, LLC"}, %{name: "15., Advanced Disposal Services Carolinas Holdings, LLC"}, %{name: "16., Advanced Disposal Services Central Florida, LLC"}, %{name: "17., Advanced Disposal Services Cobb County Recycling Facility, LLC"}, %{name: "18., Advanced Disposal Services Cobb County Transfer Station, LLC"}, %{name: "19., Advanced Disposal Services Georgia Holdings, LLC"}, %{name: "20., Advanced Disposal Services Gwinnett Transfer Station, LLC"}, %{name: "21., Advanced Disposal Services Gulf Coast, LLC"}, %{name: "22., Advanced Disposal Services Hancock County, LLC"}, %{name: "23., Advanced Disposal Services Jackson, LLC"}, %{name: "24., Advanced Disposal Services Jacksonville, LLC"}, %{name: "25., Advanced Disposal Services Jones Road, LLC"}, %{location: "Lithonia", name: "26., Advanced Disposal Services  Transfer Station, LLC"}, %{name: "27., Advanced Disposal Services Macon, LLC"}, %{name: "28., Advanced Disposal Services Middle Georgia, LLC"}, %{name: "29., Advanced Disposal Services Milledgeville Transfer Station, LLC"}, %{name: "30., Advanced Disposal Services Mississippi, LLC"}, %{name: "31., Advanced Disposal Services Mobile Transfer Station, LLC"}, %{name: "32., Advanced Disposal Services National Accounts, Inc."}, %{name: "33., Advanced Disposal Services National Accounts, Holdings,  Inc., ,"}, %{name: "No., Name of Subsidiary"}, %{name: "34., Advanced Disposal Services North Alabama Landfill, LLC"}, %{name: "35., Advanced Disposal Services North Florida, LLC"}, %{name: "36., Advanced Disposal Services North Georgia, LLC"}, %{location: "Pasco County", name: "37., Advanced Disposal Services , LLC"}, %{name: "38., Advanced Disposal Services Prattville C&amp;D Landfill, LLC"}, %{name: "39., Advanced Disposal Services Renewable Energy, LLC"}, %{name: "40., ADS Renewable Energy - Eagle Point, LLC"}, %{name: "41., ADS Renewable Energy - Stones Throw, LLC"}, %{location: "Wolf Creek", name: "42., ADS Renewable Energy - , LLC"}, %{name: "43., Advanced Disposal Services Randolph County, LLC"}, %{name: "44., Advanced Disposal Services Rogers Lake, LLC"}, %{name: "45., Advanced Disposal Services Selma Transfer Station, LLC"}, %{name: "46., Advanced Disposal Services Smyrna Transfer Station, LLC"}, %{name: "47., Advanced Disposal Services South Carolina, LLC"}, %{...}, ...]
+    - No., Name of Subsidiary
+    - 1., Advanced Disposal Services South, Inc.
+    - 2., Advanced Disposal Recycling Services Atlanta, LLC
+    - 3., Advanced Disposal Recycling Services, LLC
+    - 4., Advanced Disposal Recycling Services Gulf Coast, LLC
+    - 5., Advanced Disposal Services Alabama CATS, LLC
+    - 6., Advanced Disposal Services Alabama EATS, LLC
+    - 7., Advanced Disposal Services Alabama Holdings, LLC
+    - 8., Advanced Disposal Services , LLC
+    - 9., Advanced Disposal Services Atlanta, LLC
+    - 10., Advanced Disposal Services Augusta, LLC
+    - 11., Advanced Disposal Services Biloxi MRF, LLC
+    - 12., Advanced Disposal Services Biloxi Transfer Station, LLC
+    - 13., Advanced Disposal Services Birmingham, Inc.
+    - 14., Advanced Disposal Services Carolinas, LLC
+    - 15., Advanced Disposal Services Carolinas Holdings, LLC
+    - 16., Advanced Disposal Services Central Florida, LLC
+    - 17., Advanced Disposal Services Cobb County Recycling Facility, LLC
+    - 18., Advanced Disposal Services Cobb County Transfer Station, LLC
+    - 19., Advanced Disposal Services Georgia Holdings, LLC
+    - 20., Advanced Disposal Services Gwinnett Transfer Station, LLC
+    - 21., Advanced Disposal Services Gulf Coast, LLC
+    - 22., Advanced Disposal Services Hancock County, LLC
+    - 23., Advanced Disposal Services Jackson, LLC
+    - 24., Advanced Disposal Services Jacksonville, LLC
+    - 25., Advanced Disposal Services Jones Road, LLC
+    - 26., Advanced Disposal Services  Transfer Station, LLC
+    - 27., Advanced Disposal Services Macon, LLC
+    - 28., Advanced Disposal Services Middle Georgia, LLC
+    - 29., Advanced Disposal Services Milledgeville Transfer Station, LLC
+    - 30., Advanced Disposal Services Mississippi, LLC
+    - 31., Advanced Disposal Services Mobile Transfer Station, LLC
+    - 32., Advanced Disposal Services National Accounts, Inc.
+    - 33., Advanced Disposal Services National Accounts, Holdings,  Inc., ,
+    - No., Name of Subsidiary
+    - 34., Advanced Disposal Services North Alabama Landfill, LLC
+    - 35., Advanced Disposal Services North Florida, LLC
+    - 36., Advanced Disposal Services North Georgia, LLC
+    - 37., Advanced Disposal Services , LLC
+    - 38., Advanced Disposal Services Prattville C&amp;D Landfill, LLC
+    - 39., Advanced Disposal Services Renewable Energy, LLC
+    - 40., ADS Renewable Energy - Eagle Point, LLC
+    - 41., ADS Renewable Energy - Stones Throw, LLC
+    - 42., ADS Renewable Energy - , LLC
+    - 43., Advanced Disposal Services Randolph County, LLC
+    - 44., Advanced Disposal Services Rogers Lake, LLC
+    - 45., Advanced Disposal Services Selma Transfer Station, LLC
+    - 46., Advanced Disposal Services Smyrna Transfer Station, LLC
+    - 47., Advanced Disposal Services South Carolina, LLC
+    - 48., Advanced Disposal Services Stateline, LLC
+    - 49., Advanced Disposal Services Tennessee Holdings, Inc.
+    - 50., Advanced Disposal Services Tennessee, LLC
+    - 51., Arrow Disposal Service, LLC
+    - 52., Baton Rouge Renewable Energy LLC
+    - 53.,  Transfer Station, LLC
+    - 54., Caruthers Mill C&amp;D Landfill, LLC
+    - 55., Coastal Recyclers Landfill, LLC
+    - 56.,  Transfer Station, LLC
+    - 57., Eagle Point Landfill, LLC
+    - 58., Firetower Landfill, LLC
+    - 59., Hall County Transfer Station, LLC
+    - 60., Jones Road Landfill and Recycling, Ltd.
+    - 61., Middleton, LLC
+    - 62., , LLC
+    - 63., Old Kings Road, LLC
+    - 64., Old Kings Road Solid Waste, LLC
+    - 65., Pasco Lakes Inc.
+    - 66., Site Services, LLC
+    - 67., SSI Southland Holdings, Inc.
+    - 68., Stone&#146;s Throw Landfill, LLC
+    - 69., Tallassee Waste Disposal Center, Inc.
+    - 70.,  Trot Landfill, LLC
+    - No., Name of Subsidiary
+    - 71., Welcome All Transfer Station, LLC
+    - 72., , LLC
+    - 73., HWStar Holdings Corp.
+    - 74., Advanced Disposal Services East, Inc.
+    - 75., Highstar Waste Acquisition Corp.
+    - 76., IWStar Waste Holdings Corp.
+    - 77., NEWStar Waste Holdings Corp.
+    - 78., North East Waste Services, Inc.
+    - 79., NEWS North East Holdings, Inc.
+    - 80.,  Hauling, Inc.
+    - 81., St. Johnsbury Transfer Station, Inc.
+    - 82., , Inc.
+    - 83.,  Transfer Station, Inc.
+    - 84., Waitsfield Transfer Station, Inc.
+    - 85., NEWS MA Holdings, Inc.
+    - 86., , LLC
+    - 87., WSI of , Inc.
+    - 88., North East Waste Transport, Inc.
+    - 89., PDC Disposal Co., Inc.
+    - 90., NEWS Mid-Atlantic Holdings, Inc.
+    - 91., WSI Medical Waste Systems, Inc.
+    - 92., Somerset Hauling, Inc.
+    - 93., WSI Sandy Run Landfill, Inc.
+    - 94., Community Refuse Service, Inc.
+    - 95., NEWS PA Holdings, Inc.
+    - 96., Community Refuse Service, LLC
+    - 97., Mostoller Landfill, LLC
+    - 98., WSI Sandy Run Landfill, LLC
+    - 99., Advanced Disposal Services Shippensburg, LLC
+    - 100., Advanced Disposal Services Somerset, Inc.
+    - 101., Advanced Disposal Services Skippack, Inc.
+    - 102., Advanced Disposal Services Lehigh Valley, Inc.
+    - 103., Hinkle Transfer Station, Inc.
+    - 104., Eastern Trans-Waste of , Inc.
+    - 105., Mostoller Landfill, Inc.
+    - 106., WBLF Acquisition Company, LLC
+    - 107., Highstar Royal Oaks I, Inc.
+    - No., Name of Subsidiary
+    - 108., Highstar Royal Oaks II, Inc.
+    - 109., Harmony Landfill, LP
+    - 110., Highstar Galante, Inc.
+    - 111., Champion Transfer Station, Inc.
+    - 112., Trestle Park Carting, Inc.
+    - 113., Trestle Transport, Inc.
+    - 114., Western Maryland Waste Systems, LLC
+    - 115., MWStar Waste Holdings Corp.
+    - 116., Advanced Disposal Services Midwest, LLC
+    - 117., Advanced Disposal Services Solid Waste Leasing Corp.
+    - 118., Advanced Disposal Services Solid Waste Midwest, LLC
+    - 119., Advanced Disposal Services Cranberry Creek Landfill, LLC
+    - 120., Advanced Disposal Services Emerald Park Landfill, LLC
+    - 121., Land &amp; Gas Reclamation, Inc.
+    - 122., , Inc.
+    - 123., Advanced Disposal Services Seven Mile Creek Landfill, LLC
+    - 124., Advanced Disposal Services Glacier Ridge Landfill, LLC
+    - 125., Advanced Disposal Services Hickory Meadows Landfill, LLC
+    - 126., Summit, Inc.
+    - 127., South Suburban, LLC
+    - 128., Advanced Disposal Services Valley Meadows Landfill, LLC
+    - 129., Advanced Disposal Services Mallard Ridge Landfill, Inc.
+    - 130., Advanced Disposal Services Blackfoot Landfill, Inc.
+    - 131., Advanced Disposal Services Hoosier Landfill, Inc.
+    - 132., Advanced Disposal Services Pontiac Landfill, Inc.
+    - 133., Advanced Disposal Services Arbor Hills Landfill, Inc.
+    - 134., Advanced Disposal Services Cedar Hill Landfill, Inc.
+    - 135., Advanced Disposal Services Star Ridge Landfill, Inc.
+    - 136., Advanced Disposal Services Eagle Bluff Landfill, Inc.
+    - 137., Advanced Disposal Services Solid Waste of PA, Inc.
+    - 138., Advanced Disposal Services Greentree Landfill, LLC
+    - 139., Advanced Disposal Services Chestnut Valley Landfill, Inc.
+    - 140., Advanced Disposal Services Lancaster Landfill, LLC
+    - 141., Advanced Disposal Services Morehead Landfill, Inc.
+    - 142., Advanced Disposal Services Blue Ridge Landfill, Inc.
+    - 143., Advanced Disposal Services Maple Hill Landfill, Inc.
+    - 144., Advanced Disposal Services Oak Ridge Landfill, Inc.
+    - No., Name of Subsidiary
+    - 145., Advanced Disposal Services Pecan Row Landfill, LLC
+    - 146., Advanced Disposal Services Magnolia Ridge Landfill, LLC
+    - 147., Advanced Disposal Services Evergreen Landfill, Inc.
+    - 148., Advanced Disposal Services Taylor County Landfill, LLC
+    - 149., ADS Solid Waste of NJ, Inc.
+    - 150., Advanced Disposal Services Cypress Acres Landfill, Inc.
+    - 151., Parker Sanitation II, Inc.
+    - 152., Advanced Disposal Services Solid Waste Southeast, Inc.
+    - 153., Superior Waste Services of , Inc.
+    - 154., Advanced Disposal Services Valley View Landfill, Inc.
+    - 155., Advanced Disposal Services Orchard Hills Landfill, Inc.
+    - 156., Advanced Disposal Services Sumner Landfill, Inc.
+    - 157., Advanced Disposal Services Wayne County Landfill, Inc.
+    - 158., Advanced Disposal Services Zion Landfill, Inc.
+    - 159., Advanced Disposal Services Rolling Hills Landfill, Inc.
+    - 160., Advanced Disposal Services Vasko Rubbish Removal, Inc.
+    - 161., Advanced Disposal Services Vasko Solid Waste, Inc.
+    - 162., Eco-Safe Systems, LLC
+    - 163., Diller Transfer Station, Inc.
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 927003, date_filed: "2014-03-03", file_name: "edgar/data/927003/0000927003-14-000012.txt", form_type: "10-K", id: 2573} [%{name: "Name, Jurisdiction of Incorporation or Organization"}, %{location: "Japan Japan", name: "Advanced Energy Japan K.K, Japan"}, %{location: "United Kingdom", name: "Advanced Energy U.K. Limited"}, %{location: "Germany", name: "Advanced Energy Industries GmbH"}, %{location: "Taiwan", name: "Advanced Energy , Ltd."}, %{location: "Shanghai China", name: "Advanced Energy Industries, Inc., Shanghai, China"}, %{location: "Shenzhen China", name: "Advanced Energy Industries (Shenzhen) Co., Ltd. (manufacturing), China"}, %{location: "Netherlands", name: "AEI International Holdings CV"}, %{location: "South Korea", name: "Advanced Energy Industries Korea, Inc."}, %{location: "South Korea", name: "AEI Korea Services, Ltd."}, %{location: "Hong Kong", name: "Tamio Limited"}, %{location: "China China", name: "Advanced Energy Industries - China Business Trust, China"}, %{location: "Hong Kong", name: "Wankia Limited"}, %{location: "Hong Kong", name: "Advanced Energy Industries Limited"}, %{location: "Hong Kong", name: "Fuyogo Limited"}, %{location: "Canada", name: "AEI , Inc."}, %{location: "Singapore", name: "Advanced Energy , Pte. Ltd."}, %{location: "Singapore", name: "Advanced Energy Services Pte. Ltd."}, %{location: "Oregon", name: "AE Solar Energy, Inc."}, %{location: "Washington", name: "Sekidenko, Inc."}, %{location: "Texas", name: "AERA Corporation"}, %{location: "Delaware", name: "AEI US Subsidiary, Inc."}, %{location: "Germany", name: "AEI Holdings, GmbH"}, %{location: "Germany", name: "REFUsol GmbH"}, %{location: "India", name: "REFUsol Solar Electronics Pvt. Ltd"}, %{location: "Delaware", name: "REFUsol, Inc."}, %{location: "Japan", name: "K.K. REFUsol"}, %{location: "Canada", name: "REFUsol Solar Electronics, Inc."}, %{location: "China", name: "REFUsol New Energy Technology Co., Ltd."}]
+    - Name, Jurisdiction of Incorporation or Organization
+    - Advanced Energy Japan K.K, Japan
+    - Advanced Energy U.K. Limited
+    - Advanced Energy Industries GmbH
+    - Advanced Energy , Ltd.
+    - Advanced Energy Industries, Inc., Shanghai, China
+    - Advanced Energy Industries (Shenzhen) Co., Ltd. (manufacturing), China
+    - AEI International Holdings CV
+    - Advanced Energy Industries Korea, Inc.
+    - AEI Korea Services, Ltd.
+    - Tamio Limited
+    - Advanced Energy Industries - China Business Trust, China
+    - Wankia Limited
+    - Advanced Energy Industries Limited
+    - Fuyogo Limited
+    - AEI , Inc.
+    - Advanced Energy , Pte. Ltd.
+    - Advanced Energy Services Pte. Ltd.
+    - AE Solar Energy, Inc.
+    - Sekidenko, Inc.
+    - AERA Corporation
+    - AEI US Subsidiary, Inc.
+    - AEI Holdings, GmbH
+    - REFUsol GmbH
+    - REFUsol Solar Electronics Pvt. Ltd
+    - REFUsol, Inc.
+    - K.K. REFUsol
+    - REFUsol Solar Electronics, Inc.
+    - REFUsol New Energy Technology Co., Ltd.
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1158449, date_filed: "2014-02-25", file_name: "edgar/data/1158449/0001158449-14-000058.txt", form_type: "10-K", id: 2572} [%{location: "Virginia", name: "Advance Stores Company, Incorporated"}, %{location: "Virginia", name: "Advance Trucking Corporation"}, %{location: "Delaware Delaware", name: "Western Auto Supply Company (Western Auto Supply Company, operates through two wholly-owned subsidiaries, organized in Delaware), Delaware"}, %{location: "Florida", name: "Discount Auto Parts, LLC"}, %{location: "Virginia", name: "Advance Auto Innovations, LLC"}, %{location: "Virginia", name: "Advance Aircraft Company, Inc."}, %{location: "Puerto Rico Delaware", name: "Advance Auto of Puerto Rico, Inc., Delaware"}, %{location: "Delaware", name: "Advance Patriot, Inc."}, %{location: "Massachusetts", name: "Autopart International, Inc."}, %{location: "Virginia", name: "Advance Auto Business Support, LLC"}, %{location: "Virginia", name: "E-Advance, LLC"}, %{location: "Virginia", name: "Crossroads Global Trading Corporation"}, %{location: "Delaware Virginia", name: "Advance e-Service Solutions, Inc. (Advance e-Service Solutions, Inc.,, operates through two wholly-owned subsidiaries, organized in Delaware), Virginia"}, %{location: "Virginia", name: "AAP Financial Services, Inc."}, %{location: "New York", name: "B.W.P. Distributors, Inc."}]
+    - Advance Stores Company, Incorporated
+    - Advance Trucking Corporation
+    - Western Auto Supply Company (Western Auto Supply Company, operates through two wholly-owned subsidiaries, organized in Delaware), Delaware
+    - Discount Auto Parts, LLC
+    - Advance Auto Innovations, LLC
+    - Advance Aircraft Company, Inc.
+    - Advance Auto of Puerto Rico, Inc., Delaware
+    - Advance Patriot, Inc.
+    - Autopart International, Inc.
+    - Advance Auto Business Support, LLC
+    - E-Advance, LLC
+    - Crossroads Global Trading Corporation
+    - Advance e-Service Solutions, Inc. (Advance e-Service Solutions, Inc.,, operates through two wholly-owned subsidiaries, organized in Delaware), Virginia
+    - AAP Financial Services, Inc.
+    - B.W.P. Distributors, Inc.
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 926282, date_filed: "2014-02-27", file_name: "edgar/data/926282/0001193125-14-071988.txt", form_type: "10-K", id: 2571} [%{name: "ADTRAN Switzerland GmbH"}, %{name: "Germany"}, %{name: "Brazil"}, %{name: "Croatia"}, %{name: "Finland"}, %{name: "Greece"}, %{name: "India"}, %{name: "Israel"}, %{name: "Italy"}, %{name: "Japan"}, %{name: "Poland"}, %{name: "Portugal"}, %{name: "Russia"}, %{name: "Slovakia"}, %{name: "Switzerland"}]
+    - ADTRAN Switzerland GmbH
+    - Germany
+    - Brazil
+    - Croatia
+    - Finland
+    - Greece
+    - India
+    - Israel
+    - Italy
+    - Japan
+    - Poland
+    - Portugal
+    - Russia
+    - Slovakia
+    - Switzerland
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 2488, date_filed: "2014-02-18", file_name: "edgar/data/2488/0001193125-14-057240.txt", form_type: "10-K", id: 2576} [%{name: "Domestic Subsidiaries, State or Jurisdiction Which Incorporated or Organized"}, %{location: "California", name: "Advanced Micro Ltd."}, %{location: "California", name: "AMD Corporation"}, %{location: "Delaware", name: "AMD Advanced Research LLC"}, %{location: "Delaware", name: "AMD (EMEA) LTD."}, %{location: "Delaware", name: "AMD Far East Ltd."}, %{location: "Delaware", name: "AMD International Sales&amp; Service, Ltd."}, %{location: "Delaware", name: "AMD Latin America Ltd."}, %{location: "Delaware", name: "SeaMicro, Inc."}, %{name: "Foreign Subsidiaries "}, %{location: "Barbados", name: "AMD Technologies SRL"}, %{location: "Barbados", name: "ATI International SRL, (1)"}, %{location: "Bermuda Bermuda", name: "ATI Technologies (Bermuda) Limited , (1), Bermuda"}, %{location: "Belgium", name: "Advanced Micro Devices  N.V., (2)"}, %{location: "Brazil", name: "AMD South America LTDA, (3)"}, %{location: "Alberta Canada", name: "1252986 Alberta ULC, Canada"}, %{location: "Canada", name: "ATI Technologies ULC , (4)"}, %{location: "China China", name: "Advanced Micro Devices (China) Co. Ltd., China"}, %{location: "China China", name: "AMD Technologies (China) Co. Ltd., (5), China"}, %{location: "Shanghai China", name: "Advanced Micro Devices (Shanghai) Co. Ltd., (5), China"}, %{location: "China China", name: "AMD Products (China) Co., Ltd , (5), China"}, %{location: "Beijing Ltd. China", name: "AMD Technology Development (Beijing) Co., Ltd. , (6), China"}, %{location: "Shanghai China", name: "ATI Visual Technologies (Shanghai) Co. Ltd.,  (1), China"}, %{location: "Finland", name: "DDEEG Microconsulting Oy,  (1)"}, %{location: "France", name: "Advanced Micro Devices S.A.S."}, %{location: "Germany", name: "Advanced Micro Devices GmbH"}, %{location: "India India", name: "AMD India Private Limited , (7), India"}, %{location: "India", name: "AMD Research&amp; Development Center  Private Limited , (8)"}, %{location: "Israel", name: "AMD Advanced Micro Devices  Ltd."}, %{location: "Italy", name: "Advanced Micro Devices S.p.A."}, %{location: "Japan", name: "AMD  Ltd."}, %{name: "Advanced Micro Devices Sdn. Bhd., Malaysia"}, %{name: "Advanced Micro Devices Export Sdn. Bhd., (9), Malaysia"}, %{name: "Advanced Micro Devices Global Services (M)Sdn. Bhd., Malaysia"}, %{location: "Malaysia", name: "ATI Technologies (L)Inc. , (10)"}, %{location: "Malaysia", name: "Advanced Micro Devices  Ltd. , (11)"}, %{location: "Singapore Singapore", name: "Advanced Micro Devices (Singapore) Pte. Ltd., Singapore"}, %{location: "Sweden", name: "Advanced Micro Devices, AB"}, %{location: "U.K.", name: "Advanced Micro Devices  Limited, UnitedKingdom"}, %{name: "(), Inactive "}, %{name: "(1), 100% owned by ATI Technologies ULC "}, %{name: "(2), 99.9952% owned by Advanced Micro Devices, Inc., .0048% owned by AMD International Sales&amp; Service, Ltd. "}, %{name: "(3), 99.9% owned by AMD International Sales&amp; Service, Ltd., 0.1% owned by AMD Far East Ltd. "}, %{location: "Alberta", name: "(4), Subsidiary of 1252986  ULC."}, %{location: "China", name: "(5), Subsidiary of Advanced Micro Devices  Co. Ltd."}, %{location: "China", name: "(6), 51% owned by Advanced Micro Devices, Inc., 49% owned by Advanced Micro Devices  Co. Ltd."}, %{name: "(7), 99.99% owned by Advanced Micro Devices, Inc, .01% owned by AMD Far East Ltd. "}, %{location: "Alberta", name: "(8), 99.975% owned by ATI Technologies ULC, 0.025% owned by 1252986  ULC"}, %{name: "(9), Subsidiary of Advanced Micro Devices Sdn. Bhd. "}, %{...}, ...]
+    - Domestic Subsidiaries, State or Jurisdiction Which Incorporated or Organized
+    - Advanced Micro Ltd.
+    - AMD Corporation
+    - AMD Advanced Research LLC
+    - AMD (EMEA) LTD.
+    - AMD Far East Ltd.
+    - AMD International Sales&amp; Service, Ltd.
+    - AMD Latin America Ltd.
+    - SeaMicro, Inc.
+    - Foreign Subsidiaries 
+    - AMD Technologies SRL
+    - ATI International SRL, (1)
+    - ATI Technologies (Bermuda) Limited , (1), Bermuda
+    - Advanced Micro Devices  N.V., (2)
+    - AMD South America LTDA, (3)
+    - 1252986 Alberta ULC, Canada
+    - ATI Technologies ULC , (4)
+    - Advanced Micro Devices (China) Co. Ltd., China
+    - AMD Technologies (China) Co. Ltd., (5), China
+    - Advanced Micro Devices (Shanghai) Co. Ltd., (5), China
+    - AMD Products (China) Co., Ltd , (5), China
+    - AMD Technology Development (Beijing) Co., Ltd. , (6), China
+    - ATI Visual Technologies (Shanghai) Co. Ltd.,  (1), China
+    - DDEEG Microconsulting Oy,  (1)
+    - Advanced Micro Devices S.A.S.
+    - Advanced Micro Devices GmbH
+    - AMD India Private Limited , (7), India
+    - AMD Research&amp; Development Center  Private Limited , (8)
+    - AMD Advanced Micro Devices  Ltd.
+    - Advanced Micro Devices S.p.A.
+    - AMD  Ltd.
+    - Advanced Micro Devices Sdn. Bhd., Malaysia
+    - Advanced Micro Devices Export Sdn. Bhd., (9), Malaysia
+    - Advanced Micro Devices Global Services (M)Sdn. Bhd., Malaysia
+    - ATI Technologies (L)Inc. , (10)
+    - Advanced Micro Devices  Ltd. , (11)
+    - Advanced Micro Devices (Singapore) Pte. Ltd., Singapore
+    - Advanced Micro Devices, AB
+    - Advanced Micro Devices  Limited, UnitedKingdom
+    - (), Inactive 
+    - (1), 100% owned by ATI Technologies ULC 
+    - (2), 99.9952% owned by Advanced Micro Devices, Inc., .0048% owned by AMD International Sales&amp; Service, Ltd. 
+    - (3), 99.9% owned by AMD International Sales&amp; Service, Ltd., 0.1% owned by AMD Far East Ltd. 
+    - (4), Subsidiary of 1252986  ULC.
+    - (5), Subsidiary of Advanced Micro Devices  Co. Ltd.
+    - (6), 51% owned by Advanced Micro Devices, Inc., 49% owned by Advanced Micro Devices  Co. Ltd.
+    - (7), 99.99% owned by Advanced Micro Devices, Inc, .01% owned by AMD Far East Ltd. 
+    - (8), 99.975% owned by ATI Technologies ULC, 0.025% owned by 1252986  ULC
+    - (9), Subsidiary of Advanced Micro Devices Sdn. Bhd. 
+    - (10), Subsidiary of ATI Technologies  Limited
+    - (11), Subsidiary of ATI Technologies (L)Inc. 
+Company: %Corpcrawl.Model.Filing{__state__: :loaded, company: #Ecto.Associations.NotLoaded<association :company is not loaded>, company_id: 1002225, date_filed: "2014-02-25", file_name: "edgar/data/1002225/0001047469-14-001313.txt", form_type: "10-K", id: 2577} [%{location: "Denmark Denmark", name: "Advent Denmark AS, Denmark"}, %{location: "Ireland", name: "Advent EMEALtd."}, %{location: "Europe England Wales", name: "Advent Europe Limited, England and Wales"}, %{location: "Netherlands", name: "Advent BV"}, %{location: "Norway", name: "Advent  AS"}, %{location: "Asia Hong Kong", name: "Advent Software (Asia)Ltd., Hong Kong"}, %{location: "Beijing China", name: "Advent Software (Beijing)Co.,Ltd., China"}, %{location: "Canada", name: "Advent Software Inc."}, %{location: "Middle East United Arab Emirates", name: "Advent Software (Middle East) Limited, United Arab Emirates"}, %{location: "Singapore Singapore", name: "Advent Software (Singapore) Pte.Ltd, Singapore"}, %{location: "Sweden", name: "Advent  AB"}, %{location: "Switzerland", name: "Advent SA"}, %{location: "Delaware", name: "Black Diamond Performance Reporting,LLC"}, %{location: "Massachusetts", name: "Hub Data,Inc."}, %{location: "Delaware", name: "Second Street Securities,Inc."}, %{location: "United Kingdom", name: "Syncova SolutionsLtd"}]
+    - Advent Denmark AS, Denmark
+    - Advent EMEALtd.
+    - Advent Europe Limited, England and Wales
+    - Advent BV
+    - Advent  AS
+    - Advent Software (Asia)Ltd., Hong Kong
+    - Advent Software (Beijing)Co.,Ltd., China
+    - Advent Software Inc.
+    - Advent Software (Middle East) Limited, United Arab Emirates
+    - Advent Software (Singapore) Pte.Ltd, Singapore
+    - Advent  AB
+    - Advent SA
+    - Black Diamond Performance Reporting,LLC
+    - Hub Data,Inc.
+    - Second Street Securities,Inc.
+    - Syncova SolutionsLtd

@@ -4,27 +4,16 @@ defmodule Corpcrawl do
   alias Exquery.Query, as: Q
   
   @ignore_tokens ["&nbsp;", "&#160;", "\\*"]
+  @headers ["Content-Type": "application/json", "Accept": "application/json"]
+
 
   def get_10ks(year, quarter) do
     Fetcher.form(year, quarter)
-    |> Stream.filter(fn entry ->
-      entry.form_type == "10-K"
-    end)
+    |> Stream.filter(fn entry -> entry.form_type == "10-K" end)
   end
 
-  def ten_k_to_subs(form_10ks, concurrency) do
-    form_10ks
-    |> Enum.map(fn form ->
-      # IO.puts "from uri #{form.file_name}"
-      {form, FTP.from_uri(form.file_name)}
-    end)
-    |> Enum.chunk(concurrency, concurrency, [])
-    |> Enum.flat_map(fn forms -> load_forms(forms) end)
-  end
-
-  defp load_ex221({form, ftp_stream}) do
-    ex221 = ftp_stream
-    |> Enum.into("")
+  defp load_ex221({form, file}) do
+    ex221 = file
     |> Edgarex.Docparser.to_documents
     |> Enum.find(fn doc ->
       String.contains?(doc.type, "EX-21")
@@ -34,11 +23,9 @@ defmodule Corpcrawl do
   end
 
 
-  def load_forms(forms) do
-    forms
-    |> Enum.map(fn form ->
-      {form, Task.async(fn -> load_ex221(form) end)}
-    end)
+  def load_forms(forms_chunk) do
+    forms_chunk
+    |> Enum.map(fn form -> {form, Task.async(fn -> load_ex221(form) end)} end)
     |> Enum.map(fn {form, task} -> 
       try do
         Task.await(task, 60_000) 
@@ -48,23 +35,21 @@ defmodule Corpcrawl do
           {:timeout, nil}
       end
     end)
-    |> Enum.map(fn res ->
-        case res do
-          {_form, nil} -> []
-          {form, doc} -> 
-
-            [doc] = doc
-            |> List.wrap
-            |> Edgarex.Docparser.doc_trees
-        
-            find_subsidiaries({form, doc})
-        end
-      end)
+    |> Enum.map(fn fm_doc -> Task.async(fn -> form_to_subs(fm_doc) end) end)
+    |> Enum.map(fn task -> Task.await(task, 600_000) end)
     |> List.flatten
 
   end
 
 
+  defp form_to_subs({form, nil}), do: []
+  defp form_to_subs({form, doc}) do
+    [doc] = doc
+    |> List.wrap
+    |> Edgarex.Docparser.doc_trees
+
+    find_subsidiaries({form, doc})
+  end
 
 
   defp clean_ugliness(els) do
@@ -84,27 +69,71 @@ defmodule Corpcrawl do
 
   defp contents({:text, contents, _}), do: contents
 
+  defp select(%{"sentences" => []}, _), do: ""
 
-
-  defp row_to_dict([name, location]) do
-    %{
-      name: contents(name),
-      location: contents(location)
-    }
+  defp select(dec, named_ent) do
+    dec
+    |> Dict.get("sentences", %{})
+    |> List.first
+    |> Dict.get("words", [])
+    |> Enum.filter(fn [word, class] ->
+      class["NamedEntityTag"] == named_ent
+    end)
+    |> Enum.map(fn [word, _] -> word end)
+    |> Enum.join(" ")
   end
 
-  defp row_to_dict([name]), do: %{name: contents(name)}
-  defp row_to_dict([]), do: %{}
+  defp nlp(text) do
+    HTTPotion.start
+    js = Poison.Encoder.encode(%{text: text}, [])
+    try do
+      %HTTPotion.Response{body: body} = r = HTTPotion.post "http://localhost:5000", [body: js, headers: @headers]
+
+      if HTTPotion.Response.success?(r) do
+        dec = Poison.decode!(body)
+
+        loc = select(dec, "LOCATION")
+        if loc != "" do
+          org = text
+          |> String.replace(loc, "")
+          |> String.replace("()", "")
+          |> String.strip
+          |> String.strip(?,)
+
+          %{name: org, location: loc}
+        else 
+          %{name: text}
+        end
+      else
+        %{name: text}
+      end
+    rescue 
+      e -> 
+        IO.inspect(e)
+        %{}
+
+    end
+  end
+
   defp row_to_dict(r) do
-    IO.puts "[missed row #{inspect r}]"
-    %{}
+    d = r
+    |> Enum.map(&(contents &1))
+    |> Enum.join(", ")
+    |> nlp
+
+    d
   end
 
-  defp remove_empty(results), do: Enum.filter(results, &(&1 != %{}))
+  defp remove_empty(results) do
+    Enum.filter(results, fn res ->
+      res
+      |> Dict.values 
+      |> Enum.join("") != ""
+    end)
+  end
 
   defp extract_meta(rows, :tr) do
-    subs = Enum.map(rows, &(row_to_dict &1))
-    |> List.flatten
+    Enum.map(rows, &(row_to_dict &1))
   end
 
   defp extract_meta(enumerated, :p) do

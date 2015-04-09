@@ -6,7 +6,8 @@ defmodule CorpcrawlTest do
     Corpcrawl.get_10ks(2014, 4)
     |> Enum.take(10)
     |> Enum.map(fn fm ->
-        assert fm.form_type == "10-K"
+      IO.inspect fm  
+      assert fm.form_type == "10-K"
     end)
   end
 
@@ -23,6 +24,7 @@ defmodule CorpcrawlTest do
     IO.inspect form
   end
 
+  @tag timeout: 600_000
   test "get subsidiaries of newscorp, table" do
     [{%{}, subs}] = [{%{company_name: "newscorp"}, fixture("newscorp")}]
     |> Corpcrawl.load_forms
@@ -68,6 +70,7 @@ defmodule CorpcrawlTest do
     ]
   end
 
+  @tag timeout: 600_000
   test "get subs of airproducts, tr els without locations" do
     [{%{company_name: "airproducts"}, fixture("airproducts")}]
     |> Corpcrawl.load_forms
